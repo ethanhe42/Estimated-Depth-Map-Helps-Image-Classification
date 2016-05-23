@@ -1,5 +1,6 @@
 # learning-depth-from-single-image-using-neural-network
-
+![fig](fig/Make3D/image/5.jpg)
+![fig](fig/Make3D/gt/5.png)
 ### steps  
 1. train a mapping map RGB to depth
 2. convert cifar10 to images  
