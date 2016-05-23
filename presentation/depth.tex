@@ -12,8 +12,6 @@
 \usepackage{graphicx}
 \usepackage{multirow}
 \usepackage{hyperref}
-
-\bibliography{depth}
 \newcommand\verbbf[1]{\textcolor[rgb]{0,0,1}{\textbf{#1}}}
 \definecolor{codegreen}{rgb}{0,0.6,0}\definecolor{codegray}{rgb}{0.5,0.5,0.5}\definecolor{codepurple}{rgb}{0.58,0,0.82}\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 \lstdefinestyle{mystyle}{
@@ -34,9 +32,17 @@
     showtabs=false,                  
     tabsize=1
 }\lstset{style=mystyle}
+\newcommand\Wider[2][3em]{%
+\makebox[\linewidth][c]{%
+  \begin{minipage}{\dimexpr\textwidth+#1\relax}
+  \raggedright#2
+  \end{minipage}%
+  }%
+}
 
 %---------------------------------------------------------------------------------------------
-\title[infer depth and transfer learning]{depth estimation \& Classification on RGBD images} % The short title appears at the bottom of every slide, the full title is only on the title page
+\bibliography{depth}
+\title[Depth Prediction and RGBD Images for Recognition]{Depth Prediction and RGBD Images for Recognition} % The short title appears at the bottom of every slide, the full title is only on the title page
 \author{Yihui He*, Metehan Ozten}
 \institute[ ] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
 {
@@ -60,6 +66,23 @@ from Xi'an Jiaotong University, China\\% Your institution for the title page
 %----------------------------------------------------------------------------------------
 %	PRESENTATION SLIDES
 %----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Related work and motivation}
+\begin{columns}
+\begin{column}{.4\textwidth}
+\includegraphics[width=\linewidth]{im2d.png}
+\end{column}
+\begin{column}{.6\textwidth}
+\includegraphics[width=\linewidth]{segment.png}\\
+\includegraphics[width=\linewidth]{stereo.png}
+\end{column}
+\end{columns}
+
+
+\end{frame}
+
+
+
 
 \begin{frame}
 \frametitle{overview}
@@ -107,14 +130,15 @@ $R_{pq} = \sum_{k=1}^K \beta_k S_{pq}^{(k)}$\\
 
 \begin{frame}
 \frametitle{Infer depth from RGB image: Architecture}
-\includegraphics[width=\linewidth]{arch.png}
-using traditional CNN.
+\hspace*{-1cm}
+\includegraphics[width=1.2\textwidth]{arch.png}
 \end{frame}
 
 
 \begin{frame}
 \frametitle{Infer depth from RGB image: Supervised part}
-\includegraphics[width=\linewidth]{fig/cnn_unary.pdf}
+\includegraphics[width=\linewidth]{fig/cnn_unary.pdf}\\
+using traditional CNN.
 \end{frame}
 
 
@@ -162,6 +186,7 @@ Original paper    &0.230	 &\textbf{0.095} 	 &\textbf{0.824}  &\textbf{0.614} 	 &
 \begin{columns}
 \begin{column}{.3\textwidth}
 \includegraphics{../images/207.jpg}\\
+$32x32x3$
 \includegraphics[scale=3]{../images/207.jpg}\\
 $400x400x3$
 \end{column}
@@ -310,11 +335,22 @@ $32x32x4$
 \end{frame}
 
 
+
+\begin{frame}
+\frametitle{our contribution}
+\begin{enumerate}
+\item reproduce previous work on depth estimation
+\item create the first RGBD CIFAR10 dataset
+\item prove that depth channel has a better feature representation 
+\item show that training on RGBD images can somehow improve accuracy
+\end{enumerate}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
 \begin{frame}
 \Huge{\centerline{questions?\footnote{code, references, report and slides can be access here:
 \href{https://github.com/yihui-he/Depth-estimation-with-neural-network}{https://github.com/yihui-he/Depth-estimation-with-neural-network}}}}
-
 \end{frame}
-%----------------------------------------------------------------------------------------
 
 \end{document}

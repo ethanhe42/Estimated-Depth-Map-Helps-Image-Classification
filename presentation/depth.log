@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.18)  23 MAY 2016 10:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.18)  23 MAY 2016 14:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1009,20 +1009,20 @@ Package biblatex Warning: Patching footnotes failed.
 (./depth.aux)
 \openout1 = `depth.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1088,7 +1088,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 51.
+Package hyperref Info: Link coloring OFF on input line 57.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1098,66 +1098,66 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count360
 )
-LaTeX Info: Redefining \ref on input line 51.
-LaTeX Info: Redefining \pageref on input line 51.
-LaTeX Info: Redefining \nameref on input line 51.
+LaTeX Info: Redefining \ref on input line 57.
+LaTeX Info: Redefining \pageref on input line 57.
+LaTeX Info: Redefining \nameref on input line 57.
 
 (./depth.out) (./depth.out)
 \@outlinefile=\write7
 \openout7 = `depth.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 51.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 57.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 51.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 57.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 51.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 51.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 51.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 51.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 57.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 51.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 51.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 51.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 57.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 51.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 51.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 51.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 57.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 51.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 51.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 57.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 51.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 57.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 51.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 51.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 51.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 51.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 51.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 57.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 51.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 51.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 57.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 57.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 5
-1.
+7.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-51.
+57.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 51.
+ut line 57.
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
 ic-dictionary/translator-basic-dictionary-English.dict
@@ -1183,7 +1183,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 51.
+LaTeX Info: Redefining \includegraphics on input line 57.
 \c@lstlisting=\count361
 Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
@@ -1194,13 +1194,13 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'depth.bbl' found.
  (./depth.bbl)
-Package biblatex Info: Reference section=0 on input line 51.
-Package biblatex Info: Reference segment=0 on input line 51.
+Package biblatex Info: Reference section=0 on input line 57.
+Package biblatex Info: Reference segment=0 on input line 57.
 
 (./depth.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 54.
+(Font)              size <5> substituted on input line 60.
 
 [1
 
@@ -1208,747 +1208,766 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 <im2d.png, id=47, 280.04625pt x 443.6575pt>
 File: im2d.png Graphic file (type png)
  <use im2d.png>
-Package pdftex.def Info: im2d.png used on input line 87.
-(pdftex.def)             Requested size: 113.69574pt x 180.12032pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 87.
+Package pdftex.def Info: im2d.png used on input line 82.
+(pdftex.def)             Requested size: 122.91406pt x 194.72247pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 82.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 87.
+LaTeX Font Info:    Try loading font information for U+msb on input line 82.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 87.
+line 82.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<../images/207.jpg, id=48, 32.12pt x 32.12pt>
+<segment.png, id=48, 640.3925pt x 182.6825pt>
+File: segment.png Graphic file (type png)
+ <use segment.png>
+Package pdftex.def Info: segment.png used on input line 82.
+(pdftex.def)             Requested size: 184.3758pt x 52.59467pt.
+
+<stereo.png, id=49, 479.7925pt x 366.36874pt>
+File: stereo.png Graphic file (type png)
+ <use stereo.png>
+Package pdftex.def Info: stereo.png used on input line 82.
+(pdftex.def)             Requested size: 184.3758pt x 140.78685pt.
+ [2
+
+ <./im2d.png> <./segment.png> <./stereo.png>]
+File: im2d.png Graphic file (type png)
+ <use im2d.png>
+Package pdftex.def Info: im2d.png used on input line 110.
+(pdftex.def)             Requested size: 113.69574pt x 180.12032pt.
+
+<../images/207.jpg, id=76, 32.12pt x 32.12pt>
 File: ../images/207.jpg Graphic file (type jpg)
  <use ../images/207.jpg>
-Package pdftex.def Info: ../images/207.jpg used on input line 87.
+Package pdftex.def Info: ../images/207.jpg used on input line 110.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/207.jpg, id=49, 32.12pt x 32.12pt>
+<../train/results/images/207.jpg, id=77, 32.12pt x 32.12pt>
 File: ../train/results/images/207.jpg Graphic file (type jpg)
 
 <use ../train/results/images/207.jpg>
-Package pdftex.def Info: ../train/results/images/207.jpg used on input line 87.
-
+Package pdftex.def Info: ../train/results/images/207.jpg used on input line 110
+.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-Overfull \vbox (7.41624pt too high) detected at line 87
+Overfull \vbox (7.41624pt too high) detected at line 110
  []
 
-[2
+[3
 
- <./im2d.png> <../images/207.jpg> <../train/results/images/207.jpg>] [3
+ <../images/207.jpg> <../train/results/images/207.jpg>] [4
+
+] [5
 
 ]
-[4
-
-] <arch.png, id=138, 887.315pt x 459.7175pt>
+<arch.png, id=166, 887.315pt x 459.7175pt>
 File: arch.png Graphic file (type png)
  <use arch.png>
-Package pdftex.def Info: arch.png used on input line 112.
-(pdftex.def)             Requested size: 307.28987pt x 159.20596pt.
+Package pdftex.def Info: arch.png used on input line 135.
+(pdftex.def)             Requested size: 368.7469pt x 191.04576pt.
 
-Overfull \hbox (23.60336pt too wide) in paragraph at lines 112--112
-[][]\OT1/cmss/m/n/10.95 using 
+Overfull \hbox (35.43762pt too wide) in paragraph at lines 135--135
+[]|  []  
  []
 
-[5
+[6
 
- <./arch.png>] <fig/cnn_unary.pdf, id=165, 779.91376pt x 113.42375pt>
+ <./arch.png>] <fig/cnn_unary.pdf, id=193, 779.91376pt x 113.42375pt>
 File: fig/cnn_unary.pdf Graphic file (type pdf)
 
 <use fig/cnn_unary.pdf>
-Package pdftex.def Info: fig/cnn_unary.pdf used on input line 118.
+Package pdftex.def Info: fig/cnn_unary.pdf used on input line 142.
 (pdftex.def)             Requested size: 307.28987pt x 44.68852pt.
- [6
+ [7
 
  <./fig/cnn_unary.pdf>]
-<fig/Make3D/image/5.jpg, id=235, 346.29375pt x 461.725pt>
+<fig/Make3D/image/5.jpg, id=265, 346.29375pt x 461.725pt>
 File: fig/Make3D/image/5.jpg Graphic file (type jpg)
 
 <use fig/Make3D/image/5.jpg>
-Package pdftex.def Info: fig/Make3D/image/5.jpg used on input line 128.
+Package pdftex.def Info: fig/Make3D/image/5.jpg used on input line 152.
 (pdftex.def)             Requested size: 92.1879pt x 122.91312pt.
 
-<fig/Make3D/gt/5.png, id=236, 346.29375pt x 461.725pt>
+<fig/Make3D/gt/5.png, id=266, 346.29375pt x 461.725pt>
 File: fig/Make3D/gt/5.png Graphic file (type png)
 
 <use fig/Make3D/gt/5.png>
-Package pdftex.def Info: fig/Make3D/gt/5.png used on input line 128.
+Package pdftex.def Info: fig/Make3D/gt/5.png used on input line 152.
 (pdftex.def)             Requested size: 92.1879pt x 122.91312pt.
 
-<fig/Make3D/ccnf_struct_ft/5.png, id=237, 346.29375pt x 461.725pt>
+<fig/Make3D/ccnf_struct_ft/5.png, id=267, 346.29375pt x 461.725pt>
 File: fig/Make3D/ccnf_struct_ft/5.png Graphic file (type png)
 
 <use fig/Make3D/ccnf_struct_ft/5.png>
-Package pdftex.def Info: fig/Make3D/ccnf_struct_ft/5.png used on input line 128
+Package pdftex.def Info: fig/Make3D/ccnf_struct_ft/5.png used on input line 152
 .
 (pdftex.def)             Requested size: 92.1879pt x 122.91312pt.
 
-<fig/Make3D/image/81.jpg, id=238, 346.29375pt x 461.725pt>
+<fig/Make3D/image/81.jpg, id=268, 346.29375pt x 461.725pt>
 File: fig/Make3D/image/81.jpg Graphic file (type jpg)
 
 <use fig/Make3D/image/81.jpg>
-Package pdftex.def Info: fig/Make3D/image/81.jpg used on input line 128.
+Package pdftex.def Info: fig/Make3D/image/81.jpg used on input line 152.
 (pdftex.def)             Requested size: 92.1879pt x 122.91312pt.
 
-<fig/Make3D/gt/81.png, id=239, 346.29375pt x 461.725pt>
+<fig/Make3D/gt/81.png, id=269, 346.29375pt x 461.725pt>
 File: fig/Make3D/gt/81.png Graphic file (type png)
 
 <use fig/Make3D/gt/81.png>
-Package pdftex.def Info: fig/Make3D/gt/81.png used on input line 128.
+Package pdftex.def Info: fig/Make3D/gt/81.png used on input line 152.
 (pdftex.def)             Requested size: 92.1879pt x 122.91312pt.
 
-<fig/Make3D/ccnf_struct_ft/81.png, id=240, 346.29375pt x 461.725pt>
+<fig/Make3D/ccnf_struct_ft/81.png, id=270, 346.29375pt x 461.725pt>
 File: fig/Make3D/ccnf_struct_ft/81.png Graphic file (type png)
 
 <use fig/Make3D/ccnf_struct_ft/81.png>
-Package pdftex.def Info: fig/Make3D/ccnf_struct_ft/81.png used on input line 12
-8.
+Package pdftex.def Info: fig/Make3D/ccnf_struct_ft/81.png used on input line 15
+2.
 (pdftex.def)             Requested size: 92.1879pt x 122.91312pt.
- [7
+ [8
 
  <./fig/Make3D/image/5.jpg> <./fig/Make3D/gt/5.png (PNG copy)> <./fig/Make3D/cc
 nf_struct_ft/5.png (PNG copy)> <./fig/Make3D/image/81.jpg> <./fig/Make3D/gt/81.
-png (PNG copy)> <./fig/Make3D/ccnf_struct_ft/81.png (PNG copy)>] [8
+png (PNG copy)> <./fig/Make3D/ccnf_struct_ft/81.png (PNG copy)>] [9
 
-] [9
+] [10
 
 ]
 File: ../images/207.jpg Graphic file (type jpg)
  <use ../images/207.jpg>
-Package pdftex.def Info: ../images/207.jpg used on input line 180.
+Package pdftex.def Info: ../images/207.jpg used on input line 205.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 File: ../images/207.jpg Graphic file (type jpg)
 
 <use ../images/207.jpg>
-Package pdftex.def Info: ../images/207.jpg used on input line 180.
+Package pdftex.def Info: ../images/207.jpg used on input line 205.
 (pdftex.def)             Requested size: 96.35971pt x 96.35971pt.
 
-Overfull \hbox (4.17181pt too wide) in paragraph at lines 180--180
-[][]  
+Overfull \hbox (4.17181pt too wide) in paragraph at lines 205--205
+[]  
  []
 
 File: ../train/results/images/207.jpg Graphic file (type jpg)
 <use ../train/results/images/207.jpg>
-Package pdftex.def Info: ../train/results/images/207.jpg used on input line 180
+Package pdftex.def Info: ../train/results/images/207.jpg used on input line 205
 .
 (pdftex.def)             Requested size: 96.35971pt x 96.35971pt.
 File: ../train/results/images/207.jpg Graphic file (type jpg)
  <use ../train/results/images/207.jpg>
-Package pdftex.def Info: ../train/results/images/207.jpg used on input line 180
+Package pdftex.def Info: ../train/results/images/207.jpg used on input line 205
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 File: ../images/207.jpg Graphic file (type jpg)
 
 <use ../images/207.jpg>
-Package pdftex.def Info: ../images/207.jpg used on input line 180.
+Package pdftex.def Info: ../images/207.jpg used on input line 205.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
- [10
+ [11
 
-] <../images/14945.jpg, id=348, 32.12pt x 32.12pt>
+] <../images/14945.jpg, id=377, 32.12pt x 32.12pt>
 File: ../images/14945.jpg Graphic file (type jpg)
 
 <use ../images/14945.jpg>
-Package pdftex.def Info: ../images/14945.jpg used on input line 266.
+Package pdftex.def Info: ../images/14945.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/14945.jpg, id=349, 32.12pt x 32.12pt>
+<../train/results/images/14945.jpg, id=378, 32.12pt x 32.12pt>
 File: ../train/results/images/14945.jpg Graphic file (type jpg)
 
 <use ../train/results/images/14945.jpg>
 Package pdftex.def Info: ../train/results/images/14945.jpg used on input line 2
-66.
+91.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/115.jpg, id=350, 32.12pt x 32.12pt>
+<../images/115.jpg, id=379, 32.12pt x 32.12pt>
 File: ../images/115.jpg Graphic file (type jpg)
  <use ../images/115.jpg>
-Package pdftex.def Info: ../images/115.jpg used on input line 266.
+Package pdftex.def Info: ../images/115.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/115.jpg, id=351, 32.12pt x 32.12pt>
+<../train/results/images/115.jpg, id=380, 32.12pt x 32.12pt>
 File: ../train/results/images/115.jpg Graphic file (type jpg)
 
 <use ../train/results/images/115.jpg>
-Package pdftex.def Info: ../train/results/images/115.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/115.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 File: ../images/207.jpg Graphic file (type jpg)
  <use ../images/207.jpg>
-Package pdftex.def Info: ../images/207.jpg used on input line 266.
+Package pdftex.def Info: ../images/207.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 File: ../train/results/images/207.jpg Graphic file (type jpg)
 
 <use ../train/results/images/207.jpg>
-Package pdftex.def Info: ../train/results/images/207.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/207.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/104.jpg, id=352, 32.12pt x 32.12pt>
+<../images/104.jpg, id=381, 32.12pt x 32.12pt>
 File: ../images/104.jpg Graphic file (type jpg)
  <use ../images/104.jpg>
-Package pdftex.def Info: ../images/104.jpg used on input line 266.
+Package pdftex.def Info: ../images/104.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/104.jpg, id=353, 32.12pt x 32.12pt>
+<../train/results/images/104.jpg, id=382, 32.12pt x 32.12pt>
 File: ../train/results/images/104.jpg Graphic file (type jpg)
 
 <use ../train/results/images/104.jpg>
-Package pdftex.def Info: ../train/results/images/104.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/104.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/29.jpg, id=354, 32.12pt x 32.12pt>
+<../images/29.jpg, id=383, 32.12pt x 32.12pt>
 File: ../images/29.jpg Graphic file (type jpg)
  <use ../images/29.jpg>
-Package pdftex.def Info: ../images/29.jpg used on input line 266.
+Package pdftex.def Info: ../images/29.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/29.jpg, id=355, 32.12pt x 32.12pt>
+<../train/results/images/29.jpg, id=384, 32.12pt x 32.12pt>
 File: ../train/results/images/29.jpg Graphic file (type jpg)
 
 <use ../train/results/images/29.jpg>
-Package pdftex.def Info: ../train/results/images/29.jpg used on input line 266.
+Package pdftex.def Info: ../train/results/images/29.jpg used on input line 291.
 
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-Overfull \hbox (13.90916pt too wide) in paragraph at lines 266--266
+Overfull \hbox (13.90916pt too wide) in paragraph at lines 291--291
 [][][][][][][][][][][]  
  []
 
-<../images/41.jpg, id=356, 32.12pt x 32.12pt>
+<../images/41.jpg, id=385, 32.12pt x 32.12pt>
 File: ../images/41.jpg Graphic file (type jpg)
  <use ../images/41.jpg>
-Package pdftex.def Info: ../images/41.jpg used on input line 266.
+Package pdftex.def Info: ../images/41.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/41.jpg, id=357, 32.12pt x 32.12pt>
+<../train/results/images/41.jpg, id=386, 32.12pt x 32.12pt>
 File: ../train/results/images/41.jpg Graphic file (type jpg)
 
 <use ../train/results/images/41.jpg>
-Package pdftex.def Info: ../train/results/images/41.jpg used on input line 266.
+Package pdftex.def Info: ../train/results/images/41.jpg used on input line 291.
 
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/108.jpg, id=358, 32.12pt x 32.12pt>
+<../images/108.jpg, id=387, 32.12pt x 32.12pt>
 File: ../images/108.jpg Graphic file (type jpg)
  <use ../images/108.jpg>
-Package pdftex.def Info: ../images/108.jpg used on input line 266.
+Package pdftex.def Info: ../images/108.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/108.jpg, id=359, 32.12pt x 32.12pt>
+<../train/results/images/108.jpg, id=388, 32.12pt x 32.12pt>
 File: ../train/results/images/108.jpg Graphic file (type jpg)
 
 <use ../train/results/images/108.jpg>
-Package pdftex.def Info: ../train/results/images/108.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/108.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/119.jpg, id=360, 32.12pt x 32.12pt>
+<../images/119.jpg, id=389, 32.12pt x 32.12pt>
 File: ../images/119.jpg Graphic file (type jpg)
  <use ../images/119.jpg>
-Package pdftex.def Info: ../images/119.jpg used on input line 266.
+Package pdftex.def Info: ../images/119.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/119.jpg, id=361, 32.12pt x 32.12pt>
+<../train/results/images/119.jpg, id=390, 32.12pt x 32.12pt>
 File: ../train/results/images/119.jpg Graphic file (type jpg)
 
 <use ../train/results/images/119.jpg>
-Package pdftex.def Info: ../train/results/images/119.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/119.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/122.jpg, id=362, 32.12pt x 32.12pt>
+<../images/122.jpg, id=391, 32.12pt x 32.12pt>
 File: ../images/122.jpg Graphic file (type jpg)
  <use ../images/122.jpg>
-Package pdftex.def Info: ../images/122.jpg used on input line 266.
+Package pdftex.def Info: ../images/122.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/122.jpg, id=363, 32.12pt x 32.12pt>
+<../train/results/images/122.jpg, id=392, 32.12pt x 32.12pt>
 File: ../train/results/images/122.jpg Graphic file (type jpg)
 
 <use ../train/results/images/122.jpg>
-Package pdftex.def Info: ../train/results/images/122.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/122.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/123.jpg, id=364, 32.12pt x 32.12pt>
+<../images/123.jpg, id=393, 32.12pt x 32.12pt>
 File: ../images/123.jpg Graphic file (type jpg)
  <use ../images/123.jpg>
-Package pdftex.def Info: ../images/123.jpg used on input line 266.
+Package pdftex.def Info: ../images/123.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/123.jpg, id=365, 32.12pt x 32.12pt>
+<../train/results/images/123.jpg, id=394, 32.12pt x 32.12pt>
 File: ../train/results/images/123.jpg Graphic file (type jpg)
 
 <use ../train/results/images/123.jpg>
-Package pdftex.def Info: ../train/results/images/123.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/123.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-Overfull \hbox (13.90916pt too wide) in paragraph at lines 266--266
+Overfull \hbox (13.90916pt too wide) in paragraph at lines 291--291
 [][][][][][][][][][][]  
  []
 
-<../images/129.jpg, id=366, 32.12pt x 32.12pt>
+<../images/129.jpg, id=395, 32.12pt x 32.12pt>
 File: ../images/129.jpg Graphic file (type jpg)
  <use ../images/129.jpg>
-Package pdftex.def Info: ../images/129.jpg used on input line 266.
+Package pdftex.def Info: ../images/129.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/129.jpg, id=367, 32.12pt x 32.12pt>
+<../train/results/images/129.jpg, id=396, 32.12pt x 32.12pt>
 File: ../train/results/images/129.jpg Graphic file (type jpg)
 
 <use ../train/results/images/129.jpg>
-Package pdftex.def Info: ../train/results/images/129.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/129.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/131.jpg, id=368, 32.12pt x 32.12pt>
+<../images/131.jpg, id=397, 32.12pt x 32.12pt>
 File: ../images/131.jpg Graphic file (type jpg)
  <use ../images/131.jpg>
-Package pdftex.def Info: ../images/131.jpg used on input line 266.
+Package pdftex.def Info: ../images/131.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/131.jpg, id=369, 32.12pt x 32.12pt>
+<../train/results/images/131.jpg, id=398, 32.12pt x 32.12pt>
 File: ../train/results/images/131.jpg Graphic file (type jpg)
 
 <use ../train/results/images/131.jpg>
-Package pdftex.def Info: ../train/results/images/131.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/131.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/140.jpg, id=370, 32.12pt x 32.12pt>
+<../images/140.jpg, id=399, 32.12pt x 32.12pt>
 File: ../images/140.jpg Graphic file (type jpg)
  <use ../images/140.jpg>
-Package pdftex.def Info: ../images/140.jpg used on input line 266.
+Package pdftex.def Info: ../images/140.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/140.jpg, id=371, 32.12pt x 32.12pt>
+<../train/results/images/140.jpg, id=400, 32.12pt x 32.12pt>
 File: ../train/results/images/140.jpg Graphic file (type jpg)
 
 <use ../train/results/images/140.jpg>
-Package pdftex.def Info: ../train/results/images/140.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/140.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/160.jpg, id=372, 32.12pt x 32.12pt>
+<../images/160.jpg, id=401, 32.12pt x 32.12pt>
 File: ../images/160.jpg Graphic file (type jpg)
  <use ../images/160.jpg>
-Package pdftex.def Info: ../images/160.jpg used on input line 266.
+Package pdftex.def Info: ../images/160.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/160.jpg, id=373, 32.12pt x 32.12pt>
+<../train/results/images/160.jpg, id=402, 32.12pt x 32.12pt>
 File: ../train/results/images/160.jpg Graphic file (type jpg)
 
 <use ../train/results/images/160.jpg>
-Package pdftex.def Info: ../train/results/images/160.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/160.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/182.jpg, id=374, 32.12pt x 32.12pt>
+<../images/182.jpg, id=403, 32.12pt x 32.12pt>
 File: ../images/182.jpg Graphic file (type jpg)
  <use ../images/182.jpg>
-Package pdftex.def Info: ../images/182.jpg used on input line 266.
+Package pdftex.def Info: ../images/182.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/182.jpg, id=375, 32.12pt x 32.12pt>
+<../train/results/images/182.jpg, id=404, 32.12pt x 32.12pt>
 File: ../train/results/images/182.jpg Graphic file (type jpg)
 
 <use ../train/results/images/182.jpg>
-Package pdftex.def Info: ../train/results/images/182.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/182.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-Overfull \hbox (13.90916pt too wide) in paragraph at lines 266--266
+Overfull \hbox (13.90916pt too wide) in paragraph at lines 291--291
 [][][][][][][][][][][]  
  []
 
-<../images/194.jpg, id=376, 32.12pt x 32.12pt>
+<../images/194.jpg, id=405, 32.12pt x 32.12pt>
 File: ../images/194.jpg Graphic file (type jpg)
  <use ../images/194.jpg>
-Package pdftex.def Info: ../images/194.jpg used on input line 266.
+Package pdftex.def Info: ../images/194.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/194.jpg, id=377, 32.12pt x 32.12pt>
+<../train/results/images/194.jpg, id=406, 32.12pt x 32.12pt>
 File: ../train/results/images/194.jpg Graphic file (type jpg)
 
 <use ../train/results/images/194.jpg>
-Package pdftex.def Info: ../train/results/images/194.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/194.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/213.jpg, id=378, 32.12pt x 32.12pt>
+<../images/213.jpg, id=407, 32.12pt x 32.12pt>
 File: ../images/213.jpg Graphic file (type jpg)
  <use ../images/213.jpg>
-Package pdftex.def Info: ../images/213.jpg used on input line 266.
+Package pdftex.def Info: ../images/213.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/213.jpg, id=379, 32.12pt x 32.12pt>
+<../train/results/images/213.jpg, id=408, 32.12pt x 32.12pt>
 File: ../train/results/images/213.jpg Graphic file (type jpg)
 
 <use ../train/results/images/213.jpg>
-Package pdftex.def Info: ../train/results/images/213.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/213.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/220.jpg, id=380, 32.12pt x 32.12pt>
+<../images/220.jpg, id=409, 32.12pt x 32.12pt>
 File: ../images/220.jpg Graphic file (type jpg)
  <use ../images/220.jpg>
-Package pdftex.def Info: ../images/220.jpg used on input line 266.
+Package pdftex.def Info: ../images/220.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/220.jpg, id=381, 32.12pt x 32.12pt>
+<../train/results/images/220.jpg, id=410, 32.12pt x 32.12pt>
 File: ../train/results/images/220.jpg Graphic file (type jpg)
 
 <use ../train/results/images/220.jpg>
-Package pdftex.def Info: ../train/results/images/220.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/220.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/221.jpg, id=382, 32.12pt x 32.12pt>
+<../images/221.jpg, id=411, 32.12pt x 32.12pt>
 File: ../images/221.jpg Graphic file (type jpg)
  <use ../images/221.jpg>
-Package pdftex.def Info: ../images/221.jpg used on input line 266.
+Package pdftex.def Info: ../images/221.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/221.jpg, id=383, 32.12pt x 32.12pt>
+<../train/results/images/221.jpg, id=412, 32.12pt x 32.12pt>
 File: ../train/results/images/221.jpg Graphic file (type jpg)
 
 <use ../train/results/images/221.jpg>
-Package pdftex.def Info: ../train/results/images/221.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/221.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/240.jpg, id=384, 32.12pt x 32.12pt>
+<../images/240.jpg, id=413, 32.12pt x 32.12pt>
 File: ../images/240.jpg Graphic file (type jpg)
  <use ../images/240.jpg>
-Package pdftex.def Info: ../images/240.jpg used on input line 266.
+Package pdftex.def Info: ../images/240.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/240.jpg, id=385, 32.12pt x 32.12pt>
+<../train/results/images/240.jpg, id=414, 32.12pt x 32.12pt>
 File: ../train/results/images/240.jpg Graphic file (type jpg)
 
 <use ../train/results/images/240.jpg>
-Package pdftex.def Info: ../train/results/images/240.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/240.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-Overfull \hbox (13.90916pt too wide) in paragraph at lines 266--266
+Overfull \hbox (13.90916pt too wide) in paragraph at lines 291--291
 [][][][][][][][][][][]  
  []
 
-<../images/246.jpg, id=386, 32.12pt x 32.12pt>
+<../images/246.jpg, id=415, 32.12pt x 32.12pt>
 File: ../images/246.jpg Graphic file (type jpg)
  <use ../images/246.jpg>
-Package pdftex.def Info: ../images/246.jpg used on input line 266.
+Package pdftex.def Info: ../images/246.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/246.jpg, id=387, 32.12pt x 32.12pt>
+<../train/results/images/246.jpg, id=416, 32.12pt x 32.12pt>
 File: ../train/results/images/246.jpg Graphic file (type jpg)
 
 <use ../train/results/images/246.jpg>
-Package pdftex.def Info: ../train/results/images/246.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/246.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/264.jpg, id=388, 32.12pt x 32.12pt>
+<../images/264.jpg, id=417, 32.12pt x 32.12pt>
 File: ../images/264.jpg Graphic file (type jpg)
  <use ../images/264.jpg>
-Package pdftex.def Info: ../images/264.jpg used on input line 266.
+Package pdftex.def Info: ../images/264.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/264.jpg, id=389, 32.12pt x 32.12pt>
+<../train/results/images/264.jpg, id=418, 32.12pt x 32.12pt>
 File: ../train/results/images/264.jpg Graphic file (type jpg)
 
 <use ../train/results/images/264.jpg>
-Package pdftex.def Info: ../train/results/images/264.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/264.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/273.jpg, id=390, 32.12pt x 32.12pt>
+<../images/273.jpg, id=419, 32.12pt x 32.12pt>
 File: ../images/273.jpg Graphic file (type jpg)
  <use ../images/273.jpg>
-Package pdftex.def Info: ../images/273.jpg used on input line 266.
+Package pdftex.def Info: ../images/273.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/273.jpg, id=391, 32.12pt x 32.12pt>
+<../train/results/images/273.jpg, id=420, 32.12pt x 32.12pt>
 File: ../train/results/images/273.jpg Graphic file (type jpg)
 
 <use ../train/results/images/273.jpg>
-Package pdftex.def Info: ../train/results/images/273.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/273.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/278.jpg, id=392, 32.12pt x 32.12pt>
+<../images/278.jpg, id=421, 32.12pt x 32.12pt>
 File: ../images/278.jpg Graphic file (type jpg)
  <use ../images/278.jpg>
-Package pdftex.def Info: ../images/278.jpg used on input line 266.
+Package pdftex.def Info: ../images/278.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/278.jpg, id=393, 32.12pt x 32.12pt>
+<../train/results/images/278.jpg, id=422, 32.12pt x 32.12pt>
 File: ../train/results/images/278.jpg Graphic file (type jpg)
 
 <use ../train/results/images/278.jpg>
-Package pdftex.def Info: ../train/results/images/278.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/278.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/284.jpg, id=394, 32.12pt x 32.12pt>
+<../images/284.jpg, id=423, 32.12pt x 32.12pt>
 File: ../images/284.jpg Graphic file (type jpg)
  <use ../images/284.jpg>
-Package pdftex.def Info: ../images/284.jpg used on input line 266.
+Package pdftex.def Info: ../images/284.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/284.jpg, id=395, 32.12pt x 32.12pt>
+<../train/results/images/284.jpg, id=424, 32.12pt x 32.12pt>
 File: ../train/results/images/284.jpg Graphic file (type jpg)
 
 <use ../train/results/images/284.jpg>
-Package pdftex.def Info: ../train/results/images/284.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/284.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-Overfull \hbox (13.90916pt too wide) in paragraph at lines 266--266
+Overfull \hbox (13.90916pt too wide) in paragraph at lines 291--291
 [][][][][][][][][][][]  
  []
 
-<../images/293.jpg, id=396, 32.12pt x 32.12pt>
+<../images/293.jpg, id=425, 32.12pt x 32.12pt>
 File: ../images/293.jpg Graphic file (type jpg)
  <use ../images/293.jpg>
-Package pdftex.def Info: ../images/293.jpg used on input line 266.
+Package pdftex.def Info: ../images/293.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/293.jpg, id=397, 32.12pt x 32.12pt>
+<../train/results/images/293.jpg, id=426, 32.12pt x 32.12pt>
 File: ../train/results/images/293.jpg Graphic file (type jpg)
 
 <use ../train/results/images/293.jpg>
-Package pdftex.def Info: ../train/results/images/293.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/293.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/295.jpg, id=398, 32.12pt x 32.12pt>
+<../images/295.jpg, id=427, 32.12pt x 32.12pt>
 File: ../images/295.jpg Graphic file (type jpg)
  <use ../images/295.jpg>
-Package pdftex.def Info: ../images/295.jpg used on input line 266.
+Package pdftex.def Info: ../images/295.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/295.jpg, id=399, 32.12pt x 32.12pt>
+<../train/results/images/295.jpg, id=428, 32.12pt x 32.12pt>
 File: ../train/results/images/295.jpg Graphic file (type jpg)
 
 <use ../train/results/images/295.jpg>
-Package pdftex.def Info: ../train/results/images/295.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/295.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/315.jpg, id=400, 32.12pt x 32.12pt>
+<../images/315.jpg, id=429, 32.12pt x 32.12pt>
 File: ../images/315.jpg Graphic file (type jpg)
  <use ../images/315.jpg>
-Package pdftex.def Info: ../images/315.jpg used on input line 266.
+Package pdftex.def Info: ../images/315.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/315.jpg, id=401, 32.12pt x 32.12pt>
+<../train/results/images/315.jpg, id=430, 32.12pt x 32.12pt>
 File: ../train/results/images/315.jpg Graphic file (type jpg)
 
 <use ../train/results/images/315.jpg>
-Package pdftex.def Info: ../train/results/images/315.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/315.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/310.jpg, id=402, 32.12pt x 32.12pt>
+<../images/310.jpg, id=431, 32.12pt x 32.12pt>
 File: ../images/310.jpg Graphic file (type jpg)
  <use ../images/310.jpg>
-Package pdftex.def Info: ../images/310.jpg used on input line 266.
+Package pdftex.def Info: ../images/310.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/310.jpg, id=403, 32.12pt x 32.12pt>
+<../train/results/images/310.jpg, id=432, 32.12pt x 32.12pt>
 File: ../train/results/images/310.jpg Graphic file (type jpg)
 
 <use ../train/results/images/310.jpg>
-Package pdftex.def Info: ../train/results/images/310.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/310.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/341.jpg, id=404, 32.12pt x 32.12pt>
+<../images/341.jpg, id=433, 32.12pt x 32.12pt>
 File: ../images/341.jpg Graphic file (type jpg)
  <use ../images/341.jpg>
-Package pdftex.def Info: ../images/341.jpg used on input line 266.
+Package pdftex.def Info: ../images/341.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/341.jpg, id=405, 32.12pt x 32.12pt>
+<../train/results/images/341.jpg, id=434, 32.12pt x 32.12pt>
 File: ../train/results/images/341.jpg Graphic file (type jpg)
 
 <use ../train/results/images/341.jpg>
-Package pdftex.def Info: ../train/results/images/341.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/341.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-Overfull \hbox (13.90916pt too wide) in paragraph at lines 266--266
+Overfull \hbox (13.90916pt too wide) in paragraph at lines 291--291
 [][][][][][][][][][][]  
  []
 
-<../images/340.jpg, id=406, 32.12pt x 32.12pt>
+<../images/340.jpg, id=435, 32.12pt x 32.12pt>
 File: ../images/340.jpg Graphic file (type jpg)
  <use ../images/340.jpg>
-Package pdftex.def Info: ../images/340.jpg used on input line 266.
+Package pdftex.def Info: ../images/340.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/340.jpg, id=407, 32.12pt x 32.12pt>
+<../train/results/images/340.jpg, id=436, 32.12pt x 32.12pt>
 File: ../train/results/images/340.jpg Graphic file (type jpg)
 
 <use ../train/results/images/340.jpg>
-Package pdftex.def Info: ../train/results/images/340.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/340.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/371.jpg, id=408, 32.12pt x 32.12pt>
+<../images/371.jpg, id=437, 32.12pt x 32.12pt>
 File: ../images/371.jpg Graphic file (type jpg)
  <use ../images/371.jpg>
-Package pdftex.def Info: ../images/371.jpg used on input line 266.
+Package pdftex.def Info: ../images/371.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/371.jpg, id=409, 32.12pt x 32.12pt>
+<../train/results/images/371.jpg, id=438, 32.12pt x 32.12pt>
 File: ../train/results/images/371.jpg Graphic file (type jpg)
 
 <use ../train/results/images/371.jpg>
-Package pdftex.def Info: ../train/results/images/371.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/371.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/370.jpg, id=410, 32.12pt x 32.12pt>
+<../images/370.jpg, id=439, 32.12pt x 32.12pt>
 File: ../images/370.jpg Graphic file (type jpg)
  <use ../images/370.jpg>
-Package pdftex.def Info: ../images/370.jpg used on input line 266.
+Package pdftex.def Info: ../images/370.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/370.jpg, id=411, 32.12pt x 32.12pt>
+<../train/results/images/370.jpg, id=440, 32.12pt x 32.12pt>
 File: ../train/results/images/370.jpg Graphic file (type jpg)
 
 <use ../train/results/images/370.jpg>
-Package pdftex.def Info: ../train/results/images/370.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/370.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/397.jpg, id=412, 32.12pt x 32.12pt>
+<../images/397.jpg, id=441, 32.12pt x 32.12pt>
 File: ../images/397.jpg Graphic file (type jpg)
  <use ../images/397.jpg>
-Package pdftex.def Info: ../images/397.jpg used on input line 266.
+Package pdftex.def Info: ../images/397.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/397.jpg, id=413, 32.12pt x 32.12pt>
+<../train/results/images/397.jpg, id=442, 32.12pt x 32.12pt>
 File: ../train/results/images/397.jpg Graphic file (type jpg)
 
 <use ../train/results/images/397.jpg>
-Package pdftex.def Info: ../train/results/images/397.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/397.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/414.jpg, id=414, 32.12pt x 32.12pt>
+<../images/414.jpg, id=443, 32.12pt x 32.12pt>
 File: ../images/414.jpg Graphic file (type jpg)
  <use ../images/414.jpg>
-Package pdftex.def Info: ../images/414.jpg used on input line 266.
+Package pdftex.def Info: ../images/414.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/414.jpg, id=415, 32.12pt x 32.12pt>
+<../train/results/images/414.jpg, id=444, 32.12pt x 32.12pt>
 File: ../train/results/images/414.jpg Graphic file (type jpg)
 
 <use ../train/results/images/414.jpg>
-Package pdftex.def Info: ../train/results/images/414.jpg used on input line 266
+Package pdftex.def Info: ../train/results/images/414.jpg used on input line 291
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-Overfull \hbox (13.90916pt too wide) in paragraph at lines 266--266
+Overfull \hbox (13.90916pt too wide) in paragraph at lines 291--291
 [][][][][][][][][][][]  
  []
 
-<../images/29787.jpg, id=416, 32.12pt x 32.12pt>
+<../images/29787.jpg, id=445, 32.12pt x 32.12pt>
 File: ../images/29787.jpg Graphic file (type jpg)
  <use ../images/29787.jpg>
-Package pdftex.def Info: ../images/29787.jpg used on input line 266.
+Package pdftex.def Info: ../images/29787.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/29787.jpg, id=417, 32.12pt x 32.12pt>
+<../train/results/images/29787.jpg, id=446, 32.12pt x 32.12pt>
 File: ../train/results/images/29787.jpg Graphic file (type jpg)
 
 <use ../train/results/images/29787.jpg>
 Package pdftex.def Info: ../train/results/images/29787.jpg used on input line 2
-66.
+91.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/34731.jpg, id=418, 32.12pt x 32.12pt>
+<../images/34731.jpg, id=447, 32.12pt x 32.12pt>
 File: ../images/34731.jpg Graphic file (type jpg)
  <use ../images/34731.jpg>
-Package pdftex.def Info: ../images/34731.jpg used on input line 266.
+Package pdftex.def Info: ../images/34731.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/34731.jpg, id=419, 32.12pt x 32.12pt>
+<../train/results/images/34731.jpg, id=448, 32.12pt x 32.12pt>
 File: ../train/results/images/34731.jpg Graphic file (type jpg)
 
 <use ../train/results/images/34731.jpg>
 Package pdftex.def Info: ../train/results/images/34731.jpg used on input line 2
-66.
+91.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/34732.jpg, id=420, 32.12pt x 32.12pt>
+<../images/34732.jpg, id=449, 32.12pt x 32.12pt>
 File: ../images/34732.jpg Graphic file (type jpg)
  <use ../images/34732.jpg>
-Package pdftex.def Info: ../images/34732.jpg used on input line 266.
+Package pdftex.def Info: ../images/34732.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/34732.jpg, id=421, 32.12pt x 32.12pt>
+<../train/results/images/34732.jpg, id=450, 32.12pt x 32.12pt>
 File: ../train/results/images/34732.jpg Graphic file (type jpg)
 
 <use ../train/results/images/34732.jpg>
 Package pdftex.def Info: ../train/results/images/34732.jpg used on input line 2
-66.
+91.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/39678.jpg, id=422, 32.12pt x 32.12pt>
+<../images/39678.jpg, id=451, 32.12pt x 32.12pt>
 File: ../images/39678.jpg Graphic file (type jpg)
  <use ../images/39678.jpg>
-Package pdftex.def Info: ../images/39678.jpg used on input line 266.
+Package pdftex.def Info: ../images/39678.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/39678.jpg, id=423, 32.12pt x 32.12pt>
+<../train/results/images/39678.jpg, id=452, 32.12pt x 32.12pt>
 File: ../train/results/images/39678.jpg Graphic file (type jpg)
 
 <use ../train/results/images/39678.jpg>
 Package pdftex.def Info: ../train/results/images/39678.jpg used on input line 2
-66.
+91.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../images/39679.jpg, id=424, 32.12pt x 32.12pt>
+<../images/39679.jpg, id=453, 32.12pt x 32.12pt>
 File: ../images/39679.jpg Graphic file (type jpg)
  <use ../images/39679.jpg>
-Package pdftex.def Info: ../images/39679.jpg used on input line 266.
+Package pdftex.def Info: ../images/39679.jpg used on input line 291.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-<../train/results/images/39679.jpg, id=425, 32.12pt x 32.12pt>
+<../train/results/images/39679.jpg, id=454, 32.12pt x 32.12pt>
 File: ../train/results/images/39679.jpg Graphic file (type jpg)
 
 <use ../train/results/images/39679.jpg>
 Package pdftex.def Info: ../train/results/images/39679.jpg used on input line 2
-66.
+91.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-Overfull \hbox (13.90916pt too wide) in paragraph at lines 266--266
+Overfull \hbox (13.90916pt too wide) in paragraph at lines 291--291
 [][][][][][][][][][][]  
  []
 
 
-Overfull \vbox (5.47923pt too high) detected at line 266
+Overfull \vbox (5.47923pt too high) detected at line 291
  []
 
-[11
+[12
 
  <../images/14945.jpg> <../train/results/images/14945.jpg> <../images/115.jpg> 
 <../train/results/images/115.jpg> <../images/104.jpg> <../train/results/images/
@@ -1980,41 +1999,41 @@ ges/39678.jpg> <../images/39679.jpg> <../train/results/images/39679.jpg>]
 File: ../images/207.jpg Graphic file (type jpg)
 
 <use ../images/207.jpg>
-Package pdftex.def Info: ../images/207.jpg used on input line 284.
+Package pdftex.def Info: ../images/207.jpg used on input line 309.
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-Overfull \hbox (29.0487pt too wide) in paragraph at lines 284--284
+Overfull \hbox (29.0487pt too wide) in paragraph at lines 309--309
 [][]  
  []
 
 File: ../train/results/images/207.jpg Graphic file (type jpg)
 <use ../train/results/images/207.jpg>
-Package pdftex.def Info: ../train/results/images/207.jpg used on input line 284
+Package pdftex.def Info: ../train/results/images/207.jpg used on input line 309
 .
 (pdftex.def)             Requested size: 32.1199pt x 32.1199pt.
 
-Overfull \hbox (29.0487pt too wide) in paragraph at lines 284--284
+Overfull \hbox (29.0487pt too wide) in paragraph at lines 309--309
 [][]  
  []
 
 
-Overfull \hbox (36.41019pt too wide) in paragraph at lines 284--284
+Overfull \hbox (36.41019pt too wide) in paragraph at lines 309--309
 []$\OT1/cmss/m/n/10.95 32\OT1/mathkerncmss/m/sl/10.95 x\OT1/cmss/m/n/10.95 32\O
 T1/mathkerncmss/m/sl/10.95 x\OT1/cmss/m/n/10.95 4$  
  []
 
-<mp1.png, id=453, 261.97874pt x 259.97125pt>
+<mp1.png, id=481, 261.97874pt x 259.97125pt>
 File: mp1.png Graphic file (type png)
  <use mp1.png>
-Package pdftex.def Info: mp1.png used on input line 284.
+Package pdftex.def Info: mp1.png used on input line 309.
 (pdftex.def)             Requested size: 122.91406pt x 121.97229pt.
 
-<label.png, id=455, 104.39pt x 351.3125pt>
+<label.png, id=483, 104.39pt x 351.3125pt>
 File: label.png Graphic file (type png)
  <use label.png>
-Package pdftex.def Info: label.png used on input line 284.
+Package pdftex.def Info: label.png used on input line 309.
 (pdftex.def)             Requested size: 61.45703pt x 206.82764pt.
- [12
+ [13
 
  <./mp1.png> <./label.png>]
 Package epstopdf Info: Source file: <train.eps>
@@ -2025,19 +2044,19 @@ Package epstopdf Info: Source file: <train.eps>
 (epstopdf)                    size: 17097 bytes
 (epstopdf)             Command: <repstopdf --outfile=train-eps-converted-to.pdf
  train.eps>
-(epstopdf)             \includegraphics on input line 292.
+(epstopdf)             \includegraphics on input line 317.
 Package epstopdf Info: Output file is already uptodate.
- <train-eps-converted-to.pdf, id=483, 578.16pt x 433.62pt>
+ <train-eps-converted-to.pdf, id=512, 578.16pt x 433.62pt>
 File: train-eps-converted-to.pdf Graphic file (type pdf)
 
 <use train-eps-converted-to.pdf>
-Package pdftex.def Info: train-eps-converted-to.pdf used on input line 292.
+Package pdftex.def Info: train-eps-converted-to.pdf used on input line 317.
 (pdftex.def)             Requested size: 307.28987pt x 230.46591pt.
 
-Overfull \vbox (2.39532pt too high) detected at line 292
+Overfull \vbox (2.39532pt too high) detected at line 317
  []
 
-[13
+[14
 
  <./train-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <test.eps>
@@ -2048,20 +2067,20 @@ Package epstopdf Info: Source file: <test.eps>
 (epstopdf)                    size: 17429 bytes
 (epstopdf)             Command: <repstopdf --outfile=test-eps-converted-to.pdf 
 test.eps>
-(epstopdf)             \includegraphics on input line 298.
+(epstopdf)             \includegraphics on input line 323.
 Package epstopdf Info: Output file is already uptodate.
 
-<test-eps-converted-to.pdf, id=539, 578.16pt x 433.62pt>
+<test-eps-converted-to.pdf, id=567, 578.16pt x 433.62pt>
 File: test-eps-converted-to.pdf Graphic file (type pdf)
 
 <use test-eps-converted-to.pdf>
-Package pdftex.def Info: test-eps-converted-to.pdf used on input line 298.
+Package pdftex.def Info: test-eps-converted-to.pdf used on input line 323.
 (pdftex.def)             Requested size: 307.28987pt x 230.46591pt.
 
-Overfull \vbox (2.39532pt too high) detected at line 298
+Overfull \vbox (2.39532pt too high) detected at line 323
  []
 
-[14
+[15
 
  <./test-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <together_train.eps>
@@ -2072,21 +2091,21 @@ Package epstopdf Info: Source file: <together_train.eps>
 (epstopdf)                    size: 16648 bytes
 (epstopdf)             Command: <repstopdf --outfile=together_train-eps-convert
 ed-to.pdf together_train.eps>
-(epstopdf)             \includegraphics on input line 304.
+(epstopdf)             \includegraphics on input line 329.
 Package epstopdf Info: Output file is already uptodate.
 
-<together_train-eps-converted-to.pdf, id=595, 578.16pt x 433.62pt>
+<together_train-eps-converted-to.pdf, id=624, 578.16pt x 433.62pt>
 File: together_train-eps-converted-to.pdf Graphic file (type pdf)
 
 <use together_train-eps-converted-to.pdf>
 Package pdftex.def Info: together_train-eps-converted-to.pdf used on input line
- 304.
+ 329.
 (pdftex.def)             Requested size: 307.28987pt x 230.46591pt.
 
-Overfull \vbox (2.39532pt too high) detected at line 304
+Overfull \vbox (2.39532pt too high) detected at line 329
  []
 
-[15
+[16
 
  <./together_train-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <together_test.eps>
@@ -2097,23 +2116,25 @@ Package epstopdf Info: Source file: <together_test.eps>
 (epstopdf)                    size: 13981 bytes
 (epstopdf)             Command: <repstopdf --outfile=together_test-eps-converte
 d-to.pdf together_test.eps>
-(epstopdf)             \includegraphics on input line 310.
+(epstopdf)             \includegraphics on input line 335.
 Package epstopdf Info: Output file is already uptodate.
 
-<together_test-eps-converted-to.pdf, id=652, 578.16pt x 433.62pt>
+<together_test-eps-converted-to.pdf, id=680, 578.16pt x 433.62pt>
 File: together_test-eps-converted-to.pdf Graphic file (type pdf)
 
 <use together_test-eps-converted-to.pdf>
 Package pdftex.def Info: together_test-eps-converted-to.pdf used on input line 
-310.
+335.
 (pdftex.def)             Requested size: 307.28987pt x 230.46591pt.
 
-Overfull \vbox (2.39532pt too high) detected at line 310
+Overfull \vbox (2.39532pt too high) detected at line 335
  []
 
-[16
+[17
 
- <./together_test-eps-converted-to.pdf>] [17
+ <./together_test-eps-converted-to.pdf>] [18
+
+] [19
 
 ]
 \tf@nav=\write8
@@ -2125,11 +2146,11 @@ Overfull \vbox (2.39532pt too high) detected at line 310
 \tf@snm=\write10
 \openout10 = `depth.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
  (./depth.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 320.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
 Package rerunfilecheck Info: File `depth.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2140,13 +2161,13 @@ LaTeX Font Warning: Size substitutions with differences
 Package logreq Info: Writing requests to 'depth.run.xml'.
 \openout1 = `depth.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 356.
  ) 
 Here is how much of TeX's memory you used:
- 24331 strings out of 493029
- 458602 string characters out of 6136234
- 860639 words of memory out of 5000000
- 27284 multiletter control sequences out of 15000+600000
+ 24350 strings out of 493029
+ 458819 string characters out of 6136234
+ 860697 words of memory out of 5000000
+ 27298 multiletter control sequences out of 15000+600000
  20250 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,65p,932b,1288s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2162,10 +2183,10 @@ lic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb>
-Output written on depth.pdf (17 pages, 943866 bytes).
+Output written on depth.pdf (19 pages, 1218387 bytes).
 PDF statistics:
- 777 PDF objects out of 1000 (max. 8388607)
- 529 compressed objects within 6 object streams
- 36 named destinations out of 1000 (max. 500000)
- 518 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 835 PDF objects out of 1000 (max. 8388607)
+ 583 compressed objects within 6 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 528 words of extra memory for PDF output out of 10000 (max. 10000000)
 

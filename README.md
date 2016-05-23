@@ -1,6 +1,8 @@
 # learning-depth-from-single-image-using-neural-network
 ![fig](presentation/im2d.png)
 
+### motivation and contribution  
+
 ### steps  
 1. train a mapping map RGB to depth
 2. convert cifar10 to images  
