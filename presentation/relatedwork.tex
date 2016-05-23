@@ -1,0 +1,60 @@
+\section{Related work}
+Prior works \cite{Saxena_nips05,make3d_pami09,Liu_cvpr12} 
+%
+typically formulate the depth estimation as a Markov Random Field (\mrf) learning problem.
+As exact \mrf learning and inference are intractable in general, 
+%
+%
+most of these approaches employ approximation methods, \eg, multi-conditional learning (MCL), particle belief propagation (PBP). 
+Predicting the depths of a new image is inefficient, taking around 4-5s in \cite{make3d_pami09} and even longer (30s) in \cite{Liu_cvpr12}.
+To make things worse, these methods suffer from lacking of flexibility in that \cite{Saxena_nips05,make3d_pami09}  rely on horizontal alignment of images and %
+\cite{Liu_cvpr12} requires the semantic labellings of the training data available beforehand. 
+%
+More recently, Liu \etal \cite{Miaomiao_cvpr14} propose a discrete-continuous \crf model to take into consideration the relations between adjacent superpixels, \eg, occlusions. They also need to use approximation methods for learning and MAP inference.
+Besides, their method relies on image retrievals to obtain a reasonable initialization.  
+By contrast, we here present a deep continuous \crf model in which we can directly solve the log-likelihood optimization without any approximations as the partition function can be analytically calculated.
+Predicting the depth of a new image is highly efficient since closed form solution exists.
+Moreover, our model do not inject any geometric priors nor any extra information.
+%
+ 
+ 
+On the other hand, previous methods \cite{make3d_pami09,Liu_cvpr12,depthTransfer_pami14,Miaomiao_cvpr14,Ladicky_cvpr14} all use hand-crafted features in their work, \eg, texton, GIST, SIFT, PHOG, object bank, \etc.  
+In contrast, we learn deep \cnn for constructing unary and pairwise potentials of \crf.
+By jointly exploring the capacity  of \cnn and continuous \crf, our method outperforms state-of-the-art methods on both indoor and outdoor scene depth estimations. 
+Perhaps the most related work 
+%
+is the recent work of \cite{dcnn_nips14}, which is concurrent to our work here. They train two CNNs for depth map prediction from a single image. 
+%
+%
+However, our method bears substantial differences from theirs.
+%
+They use the \cnn as a black-box by directly regressing the depth map from an input image through convolutions. 
+In contrast, we use \crf to explicitly model the relations of neighbouring superpixels, and learn the potentials in a unified \cnn framework. 
+%
+One potential drawback of the method in \cite{dcnn_nips14} is that it tends to learn depths with location preferences, which is prone to fit into specific layouts. 
+This partly explains why they have to collect a large number of labelled data to cover all possible layouts for training the networks 
+%
+(they collect extra training images using depth sensors)
+ %
+ , which is in the millions as reported in \cite{dcnn_nips14}.
+Instead,  our method enjoys translation invariance as 
+%
+we do not encode superpixel coordinates into the unary potentials, 
+and can train on standard dataset to get competetive performance without using additional training data. 
+%
+%
+%
+Furthermore, the predicted depth map of \cite{dcnn_nips14} is 1/4-resolution of the original input image with some border areas lost, 
+%
+while our method does not have this limitation.
+
+In the most recent work of \cite{Lecun_nips14}, Tompson \etal present a hybrid architecture for jointly training a deep \cnn and an \mrf for human pose estimation. 
+%
+%
+%
+%
+They first train a unary term and a spatial model separately, then jointly learn them as a fine tuning step.  
+During fine tuning of the whole model, they simply remove the partition function in the likelihood to have a loose approximation.
+In contrast, our model performs continuous variables prediction. 
+We can directly solve the log-likelihood optimization without using approximations as the partition function is integrable and can be analytically calculated. 
+Moreover, during prediction, we have closed-form solution for the MAP inference.

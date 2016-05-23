@@ -1,0 +1,131 @@
+\begin{thebibliography}{10}
+
+\bibitem{dcnn_nips14}
+D.~Eigen, C.~Puhrsch, and R.~Fergus,
+\newblock ``Depth map prediction from a single image using a multi-scale deep
+  network,''
+\newblock in {\em Proc. Adv. Neural Inf. Process. Syst.}, 2014.
+
+\bibitem{Hedau_eccv10}
+V.~Hedau, D.~Hoiem, and D.~A. Forsyth,
+\newblock ``Thinking inside the box: Using appearance models and context based
+  on room geometry,''
+\newblock in {\em Proc. Eur. Conf. Comp. Vis.}, 2010.
+
+\bibitem{Lee_nips10}
+D.~C. Lee, A.~Gupta, M.~Hebert, and T.~Kanade,
+\newblock ``Estimating spatial layout of rooms using volumetric reasoning about
+  objects and surfaces,''
+\newblock in {\em Proc. Adv. Neural Inf. Process. Syst.}, 2010.
+
+\bibitem{Gupta_eccv10}
+A.~Gupta, A.~A. Efros, and M.~Hebert,
+\newblock ``Blocks world revisited: Image understanding using qualitative
+  geometry and mechanics,''
+\newblock in {\em Proc. Eur. Conf. Comp. Vis.}, 2010.
+
+\bibitem{depthTransfer_pami14}
+K.~Karsch, C.~Liu, and S.~B. Kang,
+\newblock ``Depthtransfer: Depth extraction from video using non-parametric
+  sampling,''
+\newblock {\em {IEEE} Trans. Pattern Anal. Mach. Intell.}, 2014.
+
+\bibitem{Russell_cvpr09}
+B.~C. Russell and A.~Torralba,
+\newblock ``Building a database of 3d scenes from user annotations,''
+\newblock in {\em Proc. IEEE Conf. Comp. Vis. Patt. Recogn.}, 2009.
+
+\bibitem{Liu_cvpr12}
+B.~Liu, S.~Gould, and D.~Koller,
+\newblock ``Single image depth estimation from predicted semantic labels,''
+\newblock in {\em Proc. IEEE Conf. Comp. Vis. Patt. Recogn.}, 2010.
+
+\bibitem{Ladicky_cvpr14}
+L.~Ladický, J.~Shi, and M.~Pollefeys,
+\newblock ``Pulling things out of perspective,''
+\newblock in {\em Proc. IEEE Conf. Comp. Vis. Patt. Recogn.}, 2014.
+
+\bibitem{Lafferty_icml01}
+J.~D. Lafferty, A.~McCallum, and F.~C.~N. Pereira,
+\newblock ``Conditional random fields: Probabilistic models for segmenting and
+  labeling sequence data,''
+\newblock in {\em Proc. Int. Conf. Mach. Learn.}, 2001.
+
+\bibitem{ccrf_nips08}
+T.~Qin, T.-Y. Liu, X.-D. Zhang, D.-S. Wang, and H.~Li,
+\newblock ``Global ranking using continuous conditional random fields,''
+\newblock in {\em Proc. Adv. Neural Inf. Process. Syst.}, 2008.
+
+\bibitem{ccrf_ecai10}
+V.~Radosavljevic, S.~Vucetic, and Z.~Obradovic,
+\newblock ``Continuous conditional random fields for regression in remote
+  sensing,''
+\newblock in {\em Proc. Eur. Conf. Artificial Intell.}, 2010.
+
+\bibitem{ccrf_aaai13}
+K.~Ristovski, V.~Radosavljevic, S.~Vucetic, and Z.~Obradovic,
+\newblock ``Continuous conditional random fields for efficient regression in
+  large fully connected graphs,''
+\newblock in {\em Proc. National Conf. Artificial Intell.}, 2013.
+
+\bibitem{astound_cvprW14}
+A.~Sharif~Razavian, H.~Azizpour, J.~Sullivan, and S.~Carlsson,
+\newblock ``{CNN} features off-the-shelf: An astounding baseline for
+  recognition,''
+\newblock in {\em Workshops IEEE Conf. Comp. Vis. Patt. Recogn.}, June 2014.
+
+\bibitem{Saxena_nips05}
+A.~Saxena, S.~H. Chung, and A.~Y. Ng,
+\newblock ``Learning depth from single monocular images,''
+\newblock in {\em Proc. Adv. Neural Inf. Process. Syst.}, 2005.
+
+\bibitem{make3d_pami09}
+A.~Saxena, M.~Sun, and A.~Y. Ng,
+\newblock ``{Make3D}: Learning 3d scene structure from a single still image,''
+\newblock {\em {IEEE} Trans. Pattern Anal. Mach. Intell.}, 2009.
+
+\bibitem{Miaomiao_cvpr14}
+M.~Liu, M.~Salzmann, and X.~He,
+\newblock ``Discrete-continuous depth estimation from a single image,''
+\newblock in {\em Proc. IEEE Conf. Comp. Vis. Patt. Recogn.}, 2014.
+
+\bibitem{Lecun_nips14}
+J.~Tompson, A.~Jain, Y.~LeCun, and C.~Bregler,
+\newblock ``Joint training of a convolutional network and a graphical model for
+  human pose estimation,''
+\newblock in {\em Proc. Adv. Neural Inf. Process. Syst.}, 2014.
+
+\bibitem{AlexNet12}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton,
+\newblock ``{ImageNet} classification with deep convolutional neural
+  networks,''
+\newblock in {\em Proc. Adv. Neural Inf. Process. Syst.}, 2012.
+
+\bibitem{LBP_icpr94}
+T.~Ojala, M.~Pietikainen, and D.~Harwood,
+\newblock ``Performance evaluation of texture measures with classification
+  based on kullback discrimination of distributions,''
+\newblock in {\em Proc. Int. Conf. Pattern Recognition}, 1994.
+
+\bibitem{matconvnet}
+A.~Vedaldi,
+\newblock ``{MatConvNet},'' \url{http://www.vlfeat.org/matconvnet/}, 2013.
+
+\bibitem{vgg_bmvc14}
+K.~Chatfield, K.~Simonyan, A.~Vedaldi, and A.~Zisserman,
+\newblock ``Return of the devil in the details: Delving deep into convolutional
+  nets,''
+\newblock in {\em Proc. British Mach. Vision Conf.}, 2014.
+
+\bibitem{nyud2_eccv12}
+P.~K. Nathan~Silberman, Derek~Hoiem and R.~Fergus,
+\newblock ``Indoor segmentation and support inference from rgbd images,''
+\newblock in {\em Proc. Eur. Conf. Comp. Vis.}, 2012.
+
+\bibitem{slic_pami12}
+R.~Achanta, A.~Shaji, K.~Smith, A.~Lucchi, P.~Fua, and S.~S{\"{u}}sstrunk,
+\newblock ``{SLIC} superpixels compared to state-of-the-art superpixel
+  methods,''
+\newblock {\em {IEEE} Trans. Pattern Anal. Mach. Intell.}, 2012.
+
+\end{thebibliography}

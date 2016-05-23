@@ -1,0 +1,195 @@
+
+\pdfoutput=1
+
+\documentclass[10pt,twocolumn,letterpaper]{article}
+%
+
+
+\usepackage{cvpr}
+\usepackage{times}
+\usepackage{graphicx,epstopdf}
+\usepackage{amsmath,eucal,amssymb}
+\usepackage{amssymb,bibspacing,url,xspace}
+
+%
+\usepackage[bf,small]{caption}
+
+\usepackage{mdwtab}
+\usepackage{multirow}
+\usepackage{rotating}
+
+\usepackage[scriptsize]{subfigure}
+
+\usepackage[nospace,compress]{cite}
+%
+
+
+
+%
+%
+%
+
+%
+%
+%
+\usepackage{algorithm2e}
+%
+\let\savedalgorithm\algorithm
+\let\savedendalgorithm\endalgorithm
+%
+\newenvironment{algorithmic}{%
+\renewenvironment{algocf}[1][h]{}{}%
+\savedalgorithm
+}{%
+\savedendalgorithm
+}
+%
+%
+\let\listofalgorithms\undefined
+\usepackage{algorithm}
+%
+
+%
+\newcommand{\fnorm}[2][2]{\ensuremath{ \left\| #2 \right\|^2_{ \mathrm{#1} } } }
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+%
+\newcommand{\area}{{\rm area}}
+\newcommand{\st}{{{\rm s.t.}\!:}\xspace}
+\newcommand{\iid}{{i.i.d.}\xspace}
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+\newcommand{\argmin}{\operatornamewithlimits{argmin}}
+\newcommand{\trace}{\operatornamewithlimits{Tr}}
+\newcommand{\half}{{\frac{1}{2}}}
+\newcommand{\quater}{{\frac{1}{4}}}
+\newcommand{\crf}{{CRF}\xspace}
+\newcommand{\mrf}{{MRF}\xspace}
+\newcommand{\cnn}{{CNN}\xspace}
+
+
+\def\uptext#1{\rotatebox[origin=c]{90}{#1}}
+
+
+\def\Real{\mathbb{R}}
+
+\def\regress{{z}}
+\def\bregress{{\bf z}}
+\def\pws{{R}}
+\def\bpws{{\bf R}}
+%
+\def\bd{{\bf 2z}}
+\def\x{{\bf x}}
+\def\y{{\bf y}}
+%
+\def\Y{{\bf Y}}
+\def\I{{\bf I}}
+\def\S{{\bf S}}
+\def\D{{\bf D}}
+\def\A{{\bf A}}
+\def\B{{\bf B}}
+\def\J{{\bf J}}
+\def\bbeta{{\boldsymbol \beta}}
+\def\btheta{{\boldsymbol \theta}}
+
+\def\T{{\mathrm{T}}}
+\def\Pr{{\mathrm{Pr}}}
+
+\def\bmu{{\boldsymbol \mu}}
+\def\ones{{\boldsymbol  1}}
+\def\zeros{{\boldsymbol  0}}
+\def\calR{{\cal R}}
+\def\calC{{\cal C}}
+\def\calN{{\cal N}}
+\def\ADot{ { $\bf \cdot$ } }
+
+\def\T{{\!\top}}
+
+
+
+\cvprfinalcopy %
+
+
+
+
+
+\begin{document}
+
+
+
+\title{Deep Convolutional Neural Fields for Depth Estimation from a Single Image\thanks{
+    This work is in part supported by ARC Grants FT120100969, LP120200485, LP130100156.
+    Correspondence should be addressed to C. Shen (email: chhshen@gmail.com).
+  }
+}
+
+
+\author{
+Fayao Liu$^1$,
+Chunhua Shen$^{1,2}$,
+Guosheng Lin$^{1,2}$
+\\
+$^1$The University of Adelaide, Australia
+\\
+$^2$Australian Centre for Robotic Vision
+}
+
+
+\maketitle
+
+
+
+
+
+
+\input{intro.tex}
+
+
+
+
+\input{relatedwork.tex}
+
+
+
+
+\input{method.tex}
+
+
+\input{exp.tex}
+
+
+\section{Conclusion}
+We have presented a deep convolutional neural field model for depth estimation from a single image.
+%
+The proposed method combines the strength of deep \cnn and continuous \crf
+%
+in a unified \cnn framework.
+We show that the log-likelihood optimization in our method can be directly solved using back propagation without any approximations required.
+Predicting the depths of a new image by solving the MAP inference can be efficiently performed as closed-form solutions exist.
+Given the general learning framework of our method, it can also be applied for other vision applications, \eg, image denoising.
+%
+Experimental results demonstrate that the proposed method outperforms state-of-the-art methods on both indoor and outdoor scene datasets.
+%
+
+
+\appendix
+
+\onecolumn
+\input{supp.tex}
+
+
+
+
+\clearpage
+{\small
+    \bibliographystyle{ieee-cs}
+    \bibliography{CSRef}
+}
+
+
+
+%
+%
+%
+%
+%
+
+\end{document}

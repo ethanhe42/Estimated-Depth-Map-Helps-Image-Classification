@@ -1,0 +1,96 @@
+\begin{abstract} 
+We consider the problem of depth estimation from a single monocular image in this work.
+It is a challenging task as no reliable depth cues are available, \eg, stereo correspondences, motions \etc.
+Previous efforts have been focusing on exploiting geometric priors or additional sources of information, with all using hand-crafted features.
+%
+Recently, there is mounting evidence that features from deep convolutional neural networks (\cnn)  are setting new records for various vision applications.
+On the other hand, considering the continuous characteristic of the depth values,  depth  estimations can be naturally formulated into a continuous conditional random field (\crf) learning problem.
+Therefore, we in this paper present a deep convolutional neural field model for estimating depths from a single image, aiming to jointly explore the capacity of deep \cnn and continuous \crf.
+Specifically, we propose a deep structured learning scheme which learns the unary and pairwise potentials of continuous \crf in a unified deep \cnn framework.
+
+The proposed method can be used for depth estimations of general scenes with no geometric priors nor any extra information injected.
+In our case, the integral of the partition function 
+%
+can be analytically calculated, thus we can exactly solve the log-likelihood optimization.  
+Moreover, solving the MAP problem for predicting depths of a new image is highly efficient as closed-form solutions exist.
+We experimentally demonstrate that the proposed method outperforms state-of-the-art depth estimation methods on both indoor and outdoor scene datasets.
+\end{abstract}
+
+
+
+
+\section{Introduction}
+Estimating depths from a single monocular image depicting general scenes is a fundamental problem in computer vision, which has found wide applications in scene understanding, 3D modelling, robotics, \etc.  
+It is a notoriously ill-posed problem, as one captured image may correspond to numerous real world scenes \cite{dcnn_nips14}.
+Whereas for humans, inferring the underlying 3D structure from a single image is of little difficulties, it remains a challenging task for computer vision algorithms as no reliable cues can be exploited, such as temporal information, stereo correspondences, \etc. 
+Previous works mainly focus on enforcing geometric assumptions, \eg, box models, to infer the spatial layout of a room \cite{Hedau_eccv10,Lee_nips10} or outdoor scenes \cite{Gupta_eccv10}.  
+These models come with innate restrictions, which are limitations  to model only particular scene structures and therefore not applicable for general scene depth estimations. 
+Later on, non-parametric methods \cite{depthTransfer_pami14} are explored, which consists of candidate images retrieval, scene alignment  and then depth infer using optimizations with smoothness constraints.
+%
+This is based on the assumption that scenes with semantic similar appearances should have similar depth distributions when densely aligned.
+However, this method is prone to propagate errors through the different decoupled stages and relies heavily on building a reasonable sized image database to perform the candidates retrieval.
+In recent years, efforts have been made towards incorporating additional sources of information, \eg, user annotations \cite{Russell_cvpr09}, semantic labellings \cite{Liu_cvpr12, Ladicky_cvpr14}. 
+In the recent work of \cite{Ladicky_cvpr14}, Ladicky \etal have shown that jointly performing depth estimation and semantic labelling can benefit each other.
+However, they do need to hand-annotate the semantic labels of the images beforehand as such ground-truth information are generally not available.
+Nevertheless, all these methods use hand-crafted features.   
+
+ 
+
+Different from the previous efforts, we propose to  
+formulate the depth estimation as a deep continuous \crf learning problem, without relying on any geometric priors nor any extra information. 
+Conditional Random Fields (\crf) \cite{Lafferty_icml01} are popular graphical models used for structured prediction. While extensively studied in classification (discrete) domains, \crf has been less explored for regression (continuous) problems.  
+One of the pioneer work on continuous \crf can be attributed to \cite{ccrf_nips08}, in which it was proposed for global ranking in document retrieval.
+%
+Under certain constraints, they can directly solve the maximum likelihood optimization as the partition function  can be analytically calculated.
+%
+%
+%
+Since then, continuous \crf has been applied for solving various structured regression problems, \eg, remote sensing \cite{ccrf_ecai10,ccrf_aaai13}, image denoising \cite{ccrf_aaai13}.
+Motivated by all these successes, we here propose to use it for depth estimation,
+given the continuous nature of the depth values, and learn the potential functions in a deep convolutional neural network (\cnn).
+
+
+
+%
+Recent years have witnessed the prosperity of the deep convolutional neural network (\cnn). 
+CNN features have been setting new records for a wide variety of vision applications \cite{astound_cvprW14}.
+%
+%
+%
+%
+Despite all the successes in classification problems, 
+deep \cnn has been less explored for structured learning problems, \ie, joint training of a deep \cnn and a graphical model, which is a relatively new and not well addressed problem.
+To our knowledge, no such model has been successfully used for depth estimations. 
+We here bridge this gap by jointly exploring \cnn and continuous \crf.
+%
+%
+%
+%
+
+
+
+%
+%
+%
+%
+%
+%
+%
+
+
+
+To sum up, we highlight the main contributions of this work as follows:
+\begin{itemize}
+\vspace{-.12cm} \item
+We propose a deep convolutional neural field model for depth estimations by exploring \cnn and continuous \crf.  
+%
+Given the continuous nature of the depth values, the partition function in the probability density function can be analytically calculated, therefore we can directly solve the log-likelihood optimization without any approximations.  The gradients can be exactly calculated in the back propagation training.
+Moreover, solving the MAP problem for predicting the depth of a new image is highly efficient since closed form solutions exist.
+%
+\vspace{-.12cm} \item
+We jointly learn the unary and pairwise potentials of the \crf in a unified deep \cnn framework, which is trained using back propagation.
+%
+%
+\vspace{-.12cm} \item
+We demonstrate that the proposed method outperforms state-of-the-art results of depth estimation on both indoor and outdoor scene datasets.
+\end{itemize}

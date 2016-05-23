@@ -1,0 +1,5 @@
+*.jpg
+images/*
+train/results/*
+data_batch
+train/model_trained/*
