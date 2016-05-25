@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.18)  25 MAY 2016 10:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.18)  25 MAY 2016 10:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2207,7 +2207,7 @@ lic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb>
-Output written on depth.pdf (21 pages, 1228803 bytes).
+Output written on depth.pdf (21 pages, 1228805 bytes).
 PDF statistics:
  469 PDF objects out of 1000 (max. 8388607)
  214 compressed objects within 3 object streams
