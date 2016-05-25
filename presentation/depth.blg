@@ -1,17 +1,17 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'depth.blg'
-[23] biber:290> INFO - === Wed May 25, 2016, 10:32:03
-[32] Biber.pm:347> INFO - Reading 'depth.bcf'
-[87] Biber.pm:741> INFO - Found 1 citekeys in bib section 0
-[94] Biber.pm:3150> INFO - Processing section 0
-[120] Biber.pm:3307> INFO - Looking for bibtex format file 'depth.bib' for section 0
-[121] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
-[122] bibtex.pm:985> INFO - Found BibTeX data source 'depth.bib'
-[123] Utils.pm:147> WARN - Duplicate entry key: 'eigen2015predicting' in file 'depth.bib', skipping ...
-[145] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[145] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[145] Biber.pm:3027> INFO - Sorting list 'nty/global' of type 'entry' with scheme 'nty' and locale 'en-US'
-[145] Biber.pm:3031> INFO - No sort tailoring available for locale 'en-US'
-[147] bbl.pm:519> INFO - Writing 'depth.bbl' with encoding 'ascii'
-[147] bbl.pm:615> INFO - Output to depth.bbl
-[147] Biber.pm:108> INFO - WARNINGS: 1
+[23] biber:290> INFO - === Wed May 25, 2016, 10:37:08
+[34] Biber.pm:347> INFO - Reading 'depth.bcf'
+[92] Biber.pm:741> INFO - Found 1 citekeys in bib section 0
+[99] Biber.pm:3150> INFO - Processing section 0
+[125] Biber.pm:3307> INFO - Looking for bibtex format file 'depth.bib' for section 0
+[126] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
+[127] bibtex.pm:985> INFO - Found BibTeX data source 'depth.bib'
+[128] Utils.pm:147> WARN - Duplicate entry key: 'eigen2015predicting' in file 'depth.bib', skipping ...
+[151] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[151] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[151] Biber.pm:3027> INFO - Sorting list 'nty/global' of type 'entry' with scheme 'nty' and locale 'en-US'
+[151] Biber.pm:3031> INFO - No sort tailoring available for locale 'en-US'
+[153] bbl.pm:519> INFO - Writing 'depth.bbl' with encoding 'ascii'
+[153] bbl.pm:615> INFO - Output to depth.bbl
+[153] Biber.pm:108> INFO - WARNINGS: 1
