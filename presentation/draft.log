@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.18)  22 MAY 2016 23:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.18)  23 MAY 2016 18:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -357,8 +357,38 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 \@float@every@algorithm=\toks25
 \c@algorithm=\count117
+) (./draft.aux
+
+LaTeX Warning: Label `eq:prob' multiply defined.
+
+
+LaTeX Warning: Label `eq:feature' multiply defined.
+
+
+LaTeX Warning: Label `eq:partition' multiply defined.
+
+
+LaTeX Warning: Label `eq:def_R' multiply defined.
+
+
+LaTeX Warning: Label `eq:feature_expand' multiply defined.
+
+
+LaTeX Warning: Label `eq:log-likelihood' multiply defined.
+
+
+LaTeX Warning: Label `eq:ccrf_final' multiply defined.
+
+
+LaTeX Warning: Label `eq:derive_z' multiply defined.
+
+
+LaTeX Warning: Label `eq:def_J' multiply defined.
+
+
+LaTeX Warning: Label `eq:derive_beta_final' multiply defined.
+
 )
-No file draft.aux.
 \openout1 = `draft.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
@@ -375,7 +405,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
 LaTeX Font Info:    ... okay on input line 114.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 114.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \AtBeginShipoutBox=\box39
@@ -428,126 +458,14 @@ Underfull \hbox (badness 1314) in paragraph at lines 136--136
 (./intro.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
-
-
-LaTeX Warning: Citation `dcnn_nips14' on page 1 undefined on input line 24.
-
-
-LaTeX Warning: Citation `Hedau_eccv10' on page 1 undefined on input line 26.
-
-
-LaTeX Warning: Citation `Lee_nips10' on page 1 undefined on input line 26.
-
-
-LaTeX Warning: Citation `Gupta_eccv10' on page 1 undefined on input line 26.
-
-
-LaTeX Warning: Citation `depthTransfer_pami14' on page 1 undefined on input lin
-e 28.
-
-
-LaTeX Warning: Citation `Russell_cvpr09' on page 1 undefined on input line 32.
-
-
-LaTeX Warning: Citation `Liu_cvpr12' on page 1 undefined on input line 32.
-
-
-LaTeX Warning: Citation `Ladicky_cvpr14' on page 1 undefined on input line 32.
-
-
-LaTeX Warning: Citation `Ladicky_cvpr14' on page 1 undefined on input line 33.
-
-
-LaTeX Warning: Citation `Lafferty_icml01' on page 1 undefined on input line 41.
-
-
-
-LaTeX Warning: Citation `ccrf_nips08' on page 1 undefined on input line 42.
-
-
-LaTeX Warning: Citation `ccrf_ecai10' on page 1 undefined on input line 48.
-
-
-LaTeX Warning: Citation `ccrf_aaai13' on page 1 undefined on input line 48.
-
-
-LaTeX Warning: Citation `ccrf_aaai13' on page 1 undefined on input line 48.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-
-LaTeX Warning: Citation `astound_cvprW14' on page 2 undefined on input line 56.
-
-
-) (./relatedwork.tex
-
-LaTeX Warning: Citation `Saxena_nips05' on page 2 undefined on input line 2.
-
-
-LaTeX Warning: Citation `make3d_pami09' on page 2 undefined on input line 2.
-
-
-LaTeX Warning: Citation `Liu_cvpr12' on page 2 undefined on input line 2.
-
-
-LaTeX Warning: Citation `make3d_pami09' on page 2 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Liu_cvpr12' on page 2 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Saxena_nips05' on page 2 undefined on input line 10.
-
-
-LaTeX Warning: Citation `make3d_pami09' on page 2 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Liu_cvpr12' on page 2 undefined on input line 11.
-
-
-LaTeX Warning: Citation `Miaomiao_cvpr14' on page 2 undefined on input line 13.
-
-
-
-LaTeX Warning: Citation `make3d_pami09' on page 2 undefined on input line 21.
-
-
-LaTeX Warning: Citation `Liu_cvpr12' on page 2 undefined on input line 21.
-
-
-LaTeX Warning: Citation `depthTransfer_pami14' on page 2 undefined on input lin
-e 21.
-
-
-LaTeX Warning: Citation `Miaomiao_cvpr14' on page 2 undefined on input line 21.
-
-
-
-LaTeX Warning: Citation `Ladicky_cvpr14' on page 2 undefined on input line 21.
-
-
-LaTeX Warning: Citation `dcnn_nips14' on page 2 undefined on input line 26.
-
-
-LaTeX Warning: Citation `dcnn_nips14' on page 2 undefined on input line 34.
-
-
-LaTeX Warning: Citation `dcnn_nips14' on page 2 undefined on input line 39.
-
-
-LaTeX Warning: Citation `dcnn_nips14' on page 2 undefined on input line 47.
-
-
-LaTeX Warning: Citation `Lecun_nips14' on page 2 undefined on input line 51.
-
-) (./method.tex <./fig/cnn_network.pdf, id=13, 1511.6475pt x 865.2325pt>
+]) (./relatedwork.tex) (./method.tex <./fig/cnn_network.pdf, id=13, 1511.6475pt
+ x 865.2325pt>
 File: ./fig/cnn_network.pdf Graphic file (type pdf)
 
 <use ./fig/cnn_network.pdf>
@@ -555,70 +473,20 @@ Package pdftex.def Info: ./fig/cnn_network.pdf used on input line 4.
 (pdftex.def)             Requested size: 437.23592pt x 250.26408pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
-
-
-LaTeX Warning: Reference `fig:cnn_unary' on page 2 undefined on input line 14.
-
-
-LaTeX Warning: Reference `sec:learning' on page 2 undefined on input line 14.
-
-
-LaTeX Warning: Reference `fig:cnn_unary' on page 2 undefined on input line 14.
-
-
-LaTeX Warning: Reference `sec:learning' on page 2 undefined on input line 14.
-
-[2]
-
-LaTeX Warning: Citation `make3d_pami09' on page 3 undefined on input line 35.
-
-
-LaTeX Warning: Citation `Liu_cvpr12' on page 3 undefined on input line 35.
-
-
-LaTeX Warning: Citation `Miaomiao_cvpr14' on page 3 undefined on input line 35.
-
-
-
-LaTeX Warning: Reference `eq:prob' on page 3 undefined on input line 57.
-
-
-LaTeX Warning: Reference `sec:learning' on page 3 undefined on input line 57.
-
+ [2]
 <./fig/cnn_unary.pdf, id=17, 779.91376pt x 113.42375pt>
 File: ./fig/cnn_unary.pdf Graphic file (type pdf)
 
 <use ./fig/cnn_unary.pdf>
 Package pdftex.def Info: ./fig/cnn_unary.pdf used on input line 68.
 (pdftex.def)             Requested size: 422.33084pt x 61.41924pt.
-
-
-LaTeX Warning: Reference `fig:cnn_ccrf' on page 3 undefined on input line 69.
-
-
-LaTeX Warning: Reference `fig:cnn_ccrf' on page 3 undefined on input line 69.
-
 LaTeX Font Info:    Try loading font information for U+eus on input line 75.
+
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueus.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
-)
-
-LaTeX Warning: Reference `fig:cnn_ccrf' on page 3 undefined on input line 84.
-
-
-LaTeX Warning: Reference `fig:cnn_unary' on page 3 undefined on input line 94.
-
-
-LaTeX Warning: Citation `dcnn_nips14' on page 3 undefined on input line 98.
-
-
-LaTeX Warning: Reference `sec:potentials' on page 3 undefined on input line 101
-.
-
-[3 <./fig/cnn_network.pdf>]
-
-LaTeX Warning: Reference `eq:energy' on page 4 undefined on input line 106.
-
+) [3 <./fig/cnn_network.pdf>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
 
 Underfull \hbox (badness 2617) in paragraph at lines 122--125
 \OT1/ptm/m/n/10 Here $\OML/cmm/m/it/10 z[]$ \OT1/ptm/m/n/10 is the re-gressed d
@@ -626,107 +494,13 @@ epth of the su-per-pixel $\OML/cmm/m/it/10 p$
  []
 
 
-LaTeX Warning: Reference `fig:cnn_unary' on page 4 undefined on input line 126.
-
-
-
-LaTeX Warning: Reference `fig:cnn_unary' on page 4 undefined on input line 127.
-
-
-
-LaTeX Warning: Citation `AlexNet12' on page 4 undefined on input line 127.
-
-
-LaTeX Warning: Reference `fig:cnn_ccrf' on page 4 undefined on input line 152.
-
-
-LaTeX Warning: Reference `eq:def_R' on page 4 undefined on input line 160.
-
-
-LaTeX Warning: Reference `sec:learning' on page 4 undefined on input line 162.
-
-
-LaTeX Warning: Reference `eq:derive_beta_final' on page 4 undefined on input li
-ne 162.
-
-
-LaTeX Warning: Reference `eq:partition' on page 4 undefined on input line 169.
-
-
-LaTeX Warning: Citation `ccrf_nips08' on page 4 undefined on input line 169.
-
-
-LaTeX Warning: Citation `LBP_icpr94' on page 4 undefined on input line 173.
-
-
 Underfull \hbox (badness 1275) in paragraph at lines 173--178
 []\OT1/ptm/m/n/10 We con-sider $\OT1/cmr/m/n/10 3$ \OT1/ptm/m/n/10 types of pai
 r-wise sim-i-lar-i-ties, mea-
  []
 
-
-LaTeX Warning: Reference `eq:unary' on page 4 undefined on input line 213.
-
-
-LaTeX Warning: Reference `eq:pairwise' on page 4 undefined on input line 213.
-
-
-Underfull \vbox (badness 6094) has occurred while \output is active []
-
- [4 <./fig/cnn_unary.pdf>]
-
-LaTeX Warning: Reference `eq:feature' on page 5 undefined on input line 226.
-
-
-LaTeX Warning: Reference `eq:feature_expand' on page 5 undefined on input line 
-230.
-
-
-LaTeX Warning: Reference `eq:partition' on page 5 undefined on input line 230.
-
-
-LaTeX Warning: Reference `eq:prob' on page 5 undefined on input line 235.
-
-
-LaTeX Warning: Reference `eq:feature_expand' on page 5 undefined on input line 
-235.
-
-
-LaTeX Warning: Reference `eq:partition_expand' on page 5 undefined on input lin
-e 235.
-
-
-LaTeX Warning: Reference `eq:ccrf_final' on page 5 undefined on input line 267.
-
-
-
-LaTeX Warning: Reference `eq:def_J' on page 5 undefined on input line 297.
-
-
-LaTeX Warning: Reference `eq:def_R' on page 5 undefined on input line 298.
-
-
-LaTeX Warning: Reference `eq:inference' on page 5 undefined on input line 315.
-
-
-LaTeX Warning: Reference `eq:inf_solution' on page 5 undefined on input line 32
-1.
-
-
-LaTeX Warning: Citation `matconvnet' on page 5 undefined on input line 342.
-
-
-LaTeX Warning: Reference `fig:cnn_unary' on page 5 undefined on input line 356.
-
-
-
-LaTeX Warning: Citation `vgg_bmvc14' on page 5 undefined on input line 356.
-
-
-LaTeX Warning: Reference `fig:cnn_unary' on page 5 undefined on input line 370.
-
-
-) [5] (./exp.tex <./fig/NYUD2/images/3.jpg, id=139, 563.10374pt x 428.60126pt>
+[4 <./fig/cnn_unary.pdf>]) [5] (./exp.tex
+<./fig/NYUD2/images/3.jpg, id=139, 563.10374pt x 428.60126pt>
 File: ./fig/NYUD2/images/3.jpg Graphic file (type jpg)
 
 <use ./fig/NYUD2/images/3.jpg>
@@ -809,9 +583,6 @@ File: ./fig/NYUD2/gt/11.png Graphic file (type png)
 <use ./fig/NYUD2/gt/11.png>
 Package pdftex.def Info: ./fig/NYUD2/gt/11.png used on input line 47.
 (pdftex.def)             Requested size: 79.49881pt x 60.50734pt.
-
-
-LaTeX Warning: Citation `dcnn_nips14' on page 6 undefined on input line 47.
 
 <./fig/NYUD2/nips14/3.png, id=151, 74.2775pt x 55.20625pt>
 File: ./fig/NYUD2/nips14/3.png Graphic file (type png)
@@ -896,51 +667,6 @@ File: ./fig/NYUD2/ours_ft/11.png Graphic file (type png)
 <use ./fig/NYUD2/ours_ft/11.png>
 Package pdftex.def Info: ./fig/NYUD2/ours_ft/11.png used on input line 47.
 (pdftex.def)             Requested size: 79.49881pt x 60.50734pt.
-
-
-LaTeX Warning: Citation `make3d_pami09' on page 6 undefined on input line 98.
-
-
-LaTeX Warning: Citation `depthTransfer_pami14' on page 6 undefined on input lin
-e 98.
-
-
-LaTeX Warning: Citation `Miaomiao_cvpr14' on page 6 undefined on input line 98.
-
-
-
-LaTeX Warning: Citation `Ladicky_cvpr14' on page 6 undefined on input line 98.
-
-
-LaTeX Warning: Citation `dcnn_nips14' on page 6 undefined on input line 98.
-
-
-LaTeX Warning: Citation `dcnn_nips14' on page 6 undefined on input line 101.
-
-
-LaTeX Warning: Citation `dcnn_nips14' on page 6 undefined on input line 101.
-
-
-LaTeX Warning: Citation `make3d_pami09' on page 6 undefined on input line 205.
-
-
-LaTeX Warning: Citation `Liu_cvpr12' on page 6 undefined on input line 205.
-
-
-LaTeX Warning: Citation `depthTransfer_pami14' on page 6 undefined on input lin
-e 205.
-
-
-LaTeX Warning: Citation `Miaomiao_cvpr14' on page 6 undefined on input line 205
-.
-
-
-LaTeX Warning: Citation `Miaomiao_cvpr14' on page 6 undefined on input line 208
-.
-
-
-LaTeX Warning: Citation `Miaomiao_cvpr14' on page 6 undefined on input line 208
-.
 
 <./fig/Make3D/image/58.jpg, id=163, 346.29375pt x 461.725pt>
 File: ./fig/Make3D/image/58.jpg Graphic file (type jpg)
@@ -1115,192 +841,41 @@ File: ./fig/Make3D/ccnf_struct_ft/5.png Graphic file (type png)
 Package pdftex.def Info: ./fig/Make3D/ccnf_struct_ft/5.png used on input line 2
 67.
 (pdftex.def)             Requested size: 59.62032pt x 79.49265pt.
-
-
-LaTeX Warning: Citation `nyud2_eccv12' on page 6 undefined on input line 306.
-
-
-LaTeX Warning: Citation `make3d_pami09' on page 6 undefined on input line 306.
-
-
-LaTeX Warning: Citation `slic_pami12' on page 6 undefined on input line 344.
-
-
-LaTeX Warning: Citation `make3d_pami09' on page 6 undefined on input line 346.
-
-
-LaTeX Warning: Citation `Liu_cvpr12' on page 6 undefined on input line 346.
-
-
-LaTeX Warning: Citation `dcnn_nips14' on page 6 undefined on input line 346.
-
-
-LaTeX Warning: Reference `fig:cnn_unary' on page 6 undefined on input line 351.
-
-
-
-LaTeX Warning: Reference `eq:inf_solution' on page 6 undefined on input line 35
-3.
-
-
-LaTeX Warning: Reference `fig:cnn_ccrf' on page 6 undefined on input line 355.
-
-
-LaTeX Warning: Citation `Miaomiao_cvpr14' on page 6 undefined on input line 387
-.
-
-
-LaTeX Warning: Reference `tab:anal_nyud2' on page 6 undefined on input line 391
-.
-
-
-LaTeX Warning: Reference `tab:nyud2' on page 6 undefined on input line 423.
-
-
-LaTeX Warning: Citation `make3d_pami09' on page 6 undefined on input line 424.
-
-
-LaTeX Warning: Citation `depthTransfer_pami14' on page 6 undefined on input lin
-e 424.
-
-
-LaTeX Warning: Citation `Ladicky_cvpr14' on page 6 undefined on input line 425.
-
-
-
-LaTeX Warning: Citation `dcnn_nips14' on page 6 undefined on input line 426.
-
-
-LaTeX Warning: Citation `dcnn_nips14' on page 6 undefined on input line 434.
-
-
-LaTeX Warning: Reference `fig:nyud2' on page 6 undefined on input line 437.
-
-
-LaTeX Warning: Citation `dcnn_nips14' on page 6 undefined on input line 437.
-
-
-LaTeX Warning: Citation `dcnn_nips14' on page 6 undefined on input line 437.
-
-
-LaTeX Warning: Citation `dcnn_nips14' on page 6 undefined on input line 440.
-
-
-LaTeX Warning: Citation `make3d_pami09' on page 6 undefined on input line 513.
-
-
-LaTeX Warning: Citation `Miaomiao_cvpr14' on page 6 undefined on input line 513
-.
-
-
-LaTeX Warning: Citation `Miaomiao_cvpr14' on page 6 undefined on input line 514
-.
-
-
-Underfull \vbox (badness 1521) has occurred while \output is active []
-
  [6]
-
-LaTeX Warning: Reference `tab:anal_make3d' on page 7 undefined on input line 51
-7.
+Underfull \vbox (badness 2486) has occurred while \output is active []
 
 
-LaTeX Warning: Reference `tab:make3d' on page 7 undefined on input line 518.
+Underfull \vbox (badness 1931) has occurred while \output is active []
 
-
-LaTeX Warning: Citation `Miaomiao_cvpr14' on page 7 undefined on input line 524
-.
-
-
-LaTeX Warning: Reference `fig:nmake3d' on page 7 undefined on input line 527.
-
-[7 <./fig/NYUD2/images/3.jpg> <./fig/NYUD2/images/5.jpg> <./fig/NYUD2/images/6.
-jpg> <./fig/NYUD2/images/7.jpg> <./fig/NYUD2/images/8.jpg> <./fig/NYUD2/images/
-11.jpg> <./fig/NYUD2/gt/3.png (PNG copy)> <./fig/NYUD2/gt/5.png (PNG copy)> <./
-fig/NYUD2/gt/6.png (PNG copy)> <./fig/NYUD2/gt/7.png (PNG copy)> <./fig/NYUD2/g
-t/8.png (PNG copy)> <./fig/NYUD2/gt/11.png (PNG copy)> <./fig/NYUD2/nips14/3.pn
-g (PNG copy)> <./fig/NYUD2/nips14/5.png (PNG copy)> <./fig/NYUD2/nips14/6.png (
-PNG copy)> <./fig/NYUD2/nips14/7.png (PNG copy)> <./fig/NYUD2/nips14/8.png (PNG
- copy)> <./fig/NYUD2/nips14/11.png (PNG copy)> <./fig/NYUD2/ours_ft/3.png (PNG 
-copy)> <./fig/NYUD2/ours_ft/5.png (PNG copy)> <./fig/NYUD2/ours_ft/6.png (PNG c
-opy)> <./fig/NYUD2/ours_ft/7.png (PNG copy)> <./fig/NYUD2/ours_ft/8.png (PNG co
-py)> <./fig/NYUD2/ours_ft/11.png (PNG copy)>]
+ [7 <./fig/NYUD2/images/3.jpg> <./fig/NYUD2/images/5.jpg> <./fig/NYUD2/images/6
+.jpg> <./fig/NYUD2/images/7.jpg> <./fig/NYUD2/images/8.jpg> <./fig/NYUD2/images
+/11.jpg> <./fig/NYUD2/gt/3.png (PNG copy)> <./fig/NYUD2/gt/5.png (PNG copy)> <.
+/fig/NYUD2/gt/6.png (PNG copy)> <./fig/NYUD2/gt/7.png (PNG copy)> <./fig/NYUD2/
+gt/8.png (PNG copy)> <./fig/NYUD2/gt/11.png (PNG copy)> <./fig/NYUD2/nips14/3.p
+ng (PNG copy)> <./fig/NYUD2/nips14/5.png (PNG copy)> <./fig/NYUD2/nips14/6.png 
+(PNG copy)> <./fig/NYUD2/nips14/7.png (PNG copy)> <./fig/NYUD2/nips14/8.png (PN
+G copy)> <./fig/NYUD2/nips14/11.png (PNG copy)> <./fig/NYUD2/ours_ft/3.png (PNG
+ copy)> <./fig/NYUD2/ours_ft/5.png (PNG copy)> <./fig/NYUD2/ours_ft/6.png (PNG 
+copy)> <./fig/NYUD2/ours_ft/7.png (PNG copy)> <./fig/NYUD2/ours_ft/8.png (PNG c
+opy)> <./fig/NYUD2/ours_ft/11.png (PNG copy)>])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [8 <./fig/Make3D/image/58.jpg> <./fig/Make3D/image/60.jpg> <./fig/Make3D/imag
-e/9.jpg> <./fig/Make3D/image/8.jpg> <./fig/Make3D/image/81.jpg> <./fig/Make3D/i
-mage/5.jpg> <./fig/Make3D/gt/58.png (PNG copy)> <./fig/Make3D/gt/60.png (PNG co
-py)> <./fig/Make3D/gt/9.png (PNG copy)> <./fig/Make3D/gt/8.png (PNG copy)> <./f
-ig/Make3D/gt/81.png (PNG copy)> <./fig/Make3D/gt/5.png (PNG copy)> <./fig/Make3
-D/unary/58.png (PNG copy)> <./fig/Make3D/unary/60.png (PNG copy)> <./fig/Make3D
-/unary/9.png (PNG copy)> <./fig/Make3D/unary/8.png (PNG copy)> <./fig/Make3D/un
-ary/81.png (PNG copy)> <./fig/Make3D/unary/5.png (PNG copy)> <./fig/Make3D/ccnf
-_struct_ft/58.png (PNG copy)> <./fig/Make3D/ccnf_struct_ft/60.png (PNG copy)> <
-./fig/Make3D/ccnf_struct_ft/9.png (PNG copy)> <./fig/Make3D/ccnf_struct_ft/8.pn
-g (PNG copy)> <./fig/Make3D/ccnf_struct_ft/81.png (PNG copy)> <./fig/Make3D/ccn
-f_struct_ft/5.png (PNG copy)>] [9
+ [8 <./fig/Make3D/image/58.jpg> <./fig/Make3D/image/60.jpg> <./fig/Make3D/image
+/9.jpg> <./fig/Make3D/image/8.jpg> <./fig/Make3D/image/81.jpg> <./fig/Make3D/im
+age/5.jpg> <./fig/Make3D/gt/58.png (PNG copy)> <./fig/Make3D/gt/60.png (PNG cop
+y)> <./fig/Make3D/gt/9.png (PNG copy)> <./fig/Make3D/gt/8.png (PNG copy)> <./fi
+g/Make3D/gt/81.png (PNG copy)> <./fig/Make3D/gt/5.png (PNG copy)> <./fig/Make3D
+/unary/58.png (PNG copy)> <./fig/Make3D/unary/60.png (PNG copy)> <./fig/Make3D/
+unary/9.png (PNG copy)> <./fig/Make3D/unary/8.png (PNG copy)> <./fig/Make3D/una
+ry/81.png (PNG copy)> <./fig/Make3D/unary/5.png (PNG copy)> <./fig/Make3D/ccnf_
+struct_ft/58.png (PNG copy)> <./fig/Make3D/ccnf_struct_ft/60.png (PNG copy)> <.
+/fig/Make3D/ccnf_struct_ft/9.png (PNG copy)> <./fig/Make3D/ccnf_struct_ft/8.png
+ (PNG copy)> <./fig/Make3D/ccnf_struct_ft/81.png (PNG copy)> <./fig/Make3D/ccnf
+_struct_ft/5.png (PNG copy)>] [9
 
-] (./supp.tex
+] (./supp.tex [10
 
-LaTeX Warning: Reference `eq:partition' on page 10 undefined on input line 45.
-
-
-LaTeX Warning: Reference `eq:feature' on page 10 undefined on input line 49.
-
-
-LaTeX Warning: Reference `eq:prob' on page 10 undefined on input line 72.
-
-
-LaTeX Warning: Reference `eq:feature_expand' on page 10 undefined on input line
- 72.
-
-
-LaTeX Warning: Reference `eq:part_expand' on page 10 undefined on input line 72
-.
-
-[10
-
-]
-
-LaTeX Warning: Reference `eq:prob_gaussian' on page 11 undefined on input line 
-81.
-
-
-LaTeX Warning: Reference `eq:def_A' on page 11 undefined on input line 100.
-
-[11]
-
-LaTeX Warning: Reference `eq:derive_beta' on page 12 undefined on input line 14
-6.
-
-
-LaTeX Warning: Reference `eq:def_J' on page 12 undefined on input line 146.
-
-
-LaTeX Warning: Reference `eq:def_R' on page 12 undefined on input line 147.
-
-
-LaTeX Warning: Reference `eq:derive_beta' on page 12 undefined on input line 14
-9.
-
-
-LaTeX Warning: Reference `eq:def_J' on page 12 undefined on input line 149.
-
-
-LaTeX Warning: Reference `eq:log-likelihood' on page 12 undefined on input line
- 163.
-
-
-LaTeX Warning: Reference `eq:def_A' on page 12 undefined on input line 169.
-
-
-LaTeX Warning: Reference `eq:inf_solution1' on page 12 undefined on input line 
-177.
-
-
-LaTeX Warning: Reference `fig:rmsVSspnum' on page 12 undefined on input line 19
-3.
-
+] [11]
 <./fig/Make3D/rmsVSspNum.pdf, id=206, 373.395pt x 275.0275pt>
 File: ./fig/Make3D/rmsVSspNum.pdf Graphic file (type pdf)
 
@@ -1327,20 +902,17 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 
 ] (./draft.aux)
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6414 strings out of 493029
- 91936 string characters out of 6136234
- 208561 words of memory out of 5000000
+ 6416 strings out of 493029
+ 91956 string characters out of 6136234
+ 208038 words of memory out of 5000000
  9760 multiletter control sequences out of 15000+600000
  40669 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,14n,39p,1278b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,14n,39p,997b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/
@@ -1367,7 +939,7 @@ sy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10
 exlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on draft.pdf (14 pages, 2670965 bytes).
+Output written on draft.pdf (14 pages, 2669182 bytes).
 PDF statistics:
  315 PDF objects out of 1000 (max. 8388607)
  181 compressed objects within 2 object streams

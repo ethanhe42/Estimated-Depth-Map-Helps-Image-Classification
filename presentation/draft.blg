@@ -1,0 +1,5 @@
+[0] Config.pm:340> INFO - This is Biber 2.4
+[0] Config.pm:343> INFO - Logfile is 'draft.blg'
+[22] biber:290> INFO - === Mon May 23, 2016, 18:50:22
+[82] Utils.pm:163> ERROR - Cannot find control file 'draft.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[82] Biber.pm:112> INFO - ERRORS: 1

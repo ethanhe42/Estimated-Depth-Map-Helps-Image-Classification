@@ -151,11 +151,3 @@ Andrew},
   pages={1161--1168},
   year={2005}
 }
-@inproceedings{liu2014discrete,
-  title={Discrete-continuous depth estimation from a single image},
-  author={Liu, Miaomiao and Salzmann, Mathieu and He, Xuming},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern 
-Recognition},
-  pages={716--723},
-  year={2014}
-}

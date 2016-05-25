@@ -1,0 +1,160 @@
+\relax 
+\citation{dcnn_nips14}
+\citation{Hedau_eccv10,Lee_nips10}
+\citation{Gupta_eccv10}
+\citation{depthTransfer_pami14}
+\citation{Russell_cvpr09}
+\citation{Liu_cvpr12,Ladicky_cvpr14}
+\citation{Ladicky_cvpr14}
+\citation{Lafferty_icml01}
+\citation{ccrf_nips08}
+\citation{ccrf_ecai10,ccrf_aaai13}
+\citation{ccrf_aaai13}
+\@writefile{toc}{\contentsline {section}{\numberline {1}\hskip -1em.\nobreakspace  {}Introduction}{1}}
+\citation{astound_cvprW14}
+\citation{Saxena_nips05,make3d_pami09,Liu_cvpr12}
+\citation{make3d_pami09}
+\citation{Liu_cvpr12}
+\citation{Saxena_nips05,make3d_pami09}
+\citation{Liu_cvpr12}
+\citation{Miaomiao_cvpr14}
+\citation{make3d_pami09,Liu_cvpr12,depthTransfer_pami14,Miaomiao_cvpr14,Ladicky_cvpr14}
+\citation{dcnn_nips14}
+\citation{dcnn_nips14}
+\citation{dcnn_nips14}
+\citation{dcnn_nips14}
+\citation{Lecun_nips14}
+\@writefile{toc}{\contentsline {section}{\numberline {2}\hskip -1em.\nobreakspace  {}Related work}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}\hskip -1em.\nobreakspace  {}Deep convolutional neural fields}{2}}
+\citation{make3d_pami09,Liu_cvpr12,Miaomiao_cvpr14}
+\citation{dcnn_nips14}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces An illustration of our deep convolutional neural field model for depth estimation. The input image is first over-segmented into superpixels. In the unary part, for a superpixel $p$, we crop the image patch centred around its centroid, then resize and feed it to a {CNN}\xspace  which is composed of 5 convolutional and 4 fully-connected layers (details refer to Fig. 2\hbox {}). In the pairwise part, for a pair of neighbouring superpixels $(p, q)$, we consider $K$ types of similarities, and feed them into a fully-connected layer. The outputs of unary part and the pairwise part are then fed to the {CRF}\xspace  structured loss layer, which minimizes the negative log-likelihood. Predicting the depths of a new image ${\bf  x}$ is to maximize the conditional probability ${\mathrm  {Pr}}({\bf  y}|{\bf  x})$, which has closed-form solutions (see Sec. 3.3\hbox {} for details). \relax }}{3}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:cnn_ccrf}{{1}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}\hskip -1em.\nobreakspace  {}Overview}{3}}
+\newlabel{eq:prob}{{1}{3}}
+\newlabel{eq:partition}{{2}{3}}
+\newlabel{eq:inference}{{3}{3}}
+\newlabel{eq:energy}{{4}{3}}
+\citation{AlexNet12}
+\citation{ccrf_nips08}
+\citation{LBP_icpr94}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Detailed network architecture of the unary part in Fig. 1\hbox {}. \relax }}{4}}
+\newlabel{fig:cnn_unary}{{2}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}\hskip -1em.\nobreakspace  {}Potential functions}{4}}
+\newlabel{sec:potentials}{{3.2}{4}}
+\@writefile{toc}{\contentsline {paragraph}{Unary potential}{4}}
+\newlabel{eq:unary}{{5}{4}}
+\@writefile{toc}{\contentsline {paragraph}{Pairwise potential}{4}}
+\newlabel{eq:pairwise}{{6}{4}}
+\newlabel{eq:def_R}{{7}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}\hskip -1em.\nobreakspace  {}Learning}{4}}
+\newlabel{sec:learning}{{3.3}{4}}
+\newlabel{eq:feature}{{8}{4}}
+\citation{matconvnet}
+\citation{vgg_bmvc14}
+\newlabel{eq:def_Amat}{{9}{5}}
+\newlabel{eq:feature_expand}{{10}{5}}
+\newlabel{eq:partition_expand}{{11}{5}}
+\newlabel{eq:prob_final}{{12}{5}}
+\newlabel{eq:log-likelihood}{{13}{5}}
+\newlabel{eq:ccrf_final}{{14}{5}}
+\newlabel{eq:derive_z}{{15}{5}}
+\newlabel{eq:derive_beta_final}{{16}{5}}
+\newlabel{eq:def_J}{{17}{5}}
+\@writefile{toc}{\contentsline {paragraph}{Depth prediction}{5}}
+\newlabel{eq:inf_solution}{{18}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}\hskip -1em.\nobreakspace  {}Implementation details}{5}}
+\citation{dcnn_nips14}
+\citation{make3d_pami09}
+\citation{depthTransfer_pami14}
+\citation{Miaomiao_cvpr14}
+\citation{Ladicky_cvpr14}
+\citation{dcnn_nips14}
+\citation{dcnn_nips14}
+\citation{dcnn_nips14}
+\citation{make3d_pami09}
+\citation{Liu_cvpr12}
+\citation{depthTransfer_pami14}
+\citation{Miaomiao_cvpr14}
+\citation{Miaomiao_cvpr14}
+\citation{Miaomiao_cvpr14}
+\citation{nyud2_eccv12}
+\citation{make3d_pami09}
+\citation{slic_pami12}
+\citation{make3d_pami09,Liu_cvpr12,dcnn_nips14}
+\citation{Miaomiao_cvpr14}
+\citation{make3d_pami09}
+\citation{depthTransfer_pami14}
+\citation{Ladicky_cvpr14}
+\citation{dcnn_nips14}
+\citation{dcnn_nips14}
+\citation{dcnn_nips14}
+\citation{dcnn_nips14}
+\citation{dcnn_nips14}
+\citation{make3d_pami09,Miaomiao_cvpr14}
+\citation{Miaomiao_cvpr14}
+\@writefile{toc}{\contentsline {section}{\numberline {4}\hskip -1em.\nobreakspace  {}Experiments}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}\hskip -1em.\nobreakspace  {}NYU v2: Indoor scene reconstruction}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}\hskip -1em.\nobreakspace  {}Make3D: Outdoor scene reconstruction}{6}}
+\citation{Miaomiao_cvpr14}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Examples of qualitative comparisons on the NYUD2 dataset (Best viewed on screen). Our method yields visually better predictions with sharper transitions, aligning to local details. \relax }}{7}}
+\newlabel{fig:nyud2}{{3}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Result comparisons on the NYU v2 dataset. Our method performs the best in most cases. Kindly note that the results of Eigen \emph  {et al}\onedot  \cite  {dcnn_nips14} are obtained by using extra training data (in the millions in total) while ours are obtained using the standard training set.\relax }}{7}}
+\newlabel{tab:nyud2}{{1}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Baseline comparisons on the NYU v2 dataset. Our method with the whole network training performs the best. \relax }}{7}}
+\newlabel{tab:anal_nyud2}{{2}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Baseline comparisons on the Make3D dataset. Our method with the whole network training performs the best. \relax }}{7}}
+\newlabel{tab:anal_make3d}{{3}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Result comparisons on the Make3D dataset. Our method performs the best. Kindly note that the C2 errors of the Discrete-continuous {CRF}\xspace  \cite  {Miaomiao_cvpr14} are reported with an ad-hoc post-processing step (train a classifier to label sky pixels and set the corresponding regions to the maximum depth).\relax }}{8}}
+\newlabel{tab:make3d}{{4}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Examples of depth predictions on the Make3D dataset (Best viewed on screen). The unary only model gives rather coarse predictions, with blurry boundaries and segments. In contrast, our full model with pairwise smoothness yields much better predictions. \relax }}{8}}
+\newlabel{fig:nmake3d}{{4}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}\hskip -1em.\nobreakspace  {}Conclusion}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}\hskip -1em.\nobreakspace  {}Deep Convolutional Neural Fields}{10}}
+\newlabel{eq:prob}{{A.1}{10}}
+\newlabel{eq:feature}{{A.2}{10}}
+\newlabel{eq:partition}{{A.3}{10}}
+\newlabel{eq:def_R}{{A.4}{10}}
+\newlabel{eq:feature_expand}{{A.5}{10}}
+\newlabel{eq:def_A}{{A.6}{10}}
+\newlabel{eq:part_expand}{{A.7}{10}}
+\newlabel{eq:prob_gaussian}{{A.8}{11}}
+\newlabel{eq:log-likelihood}{{A.9}{11}}
+\newlabel{eq:ccrf_final}{{A.10}{11}}
+\newlabel{eq:derive_z}{{A.11}{11}}
+\newlabel{eq:derive_beta}{{A.12}{11}}
+\newlabel{eq:def_J}{{A.13}{12}}
+\newlabel{eq:derive_beta_final}{{A.14}{12}}
+\@writefile{toc}{\contentsline {paragraph}{Depth prediction}{12}}
+\newlabel{eq:inf_solution1}{{A.15}{12}}
+\newlabel{eq:inf_deriv}{{A.16}{12}}
+\newlabel{eq:inf_solution2}{{A.17}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}\hskip -1em.\nobreakspace  {}Experiments}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Left: Root mean square (C2 rms) errors \emph  {vs}\onedot  varying superpixel numbers on the Make3D dataset. Right: Training time \emph  {vs}\onedot  varying superpixel numbers per image on the Make3D dataset. Clearly, increasing the number of supperpixels per image, we can further improve the results but at the cost of more training time.\relax }}{13}}
+\newlabel{fig:rmsVSspnum}{{5}{13}}
+\bibstyle{ieee-cs}
+\bibdata{CaSRef}
+\bibcite{dcnn_nips14}{1}
+\bibcite{Hedau_eccv10}{2}
+\bibcite{Lee_nips10}{3}
+\bibcite{Gupta_eccv10}{4}
+\bibcite{depthTransfer_pami14}{5}
+\bibcite{Russell_cvpr09}{6}
+\bibcite{Liu_cvpr12}{7}
+\bibcite{Ladicky_cvpr14}{8}
+\bibcite{Lafferty_icml01}{9}
+\bibcite{ccrf_nips08}{10}
+\bibcite{ccrf_ecai10}{11}
+\bibcite{ccrf_aaai13}{12}
+\bibcite{astound_cvprW14}{13}
+\bibcite{Saxena_nips05}{14}
+\bibcite{make3d_pami09}{15}
+\bibcite{Miaomiao_cvpr14}{16}
+\bibcite{Lecun_nips14}{17}
+\bibcite{AlexNet12}{18}
+\bibcite{LBP_icpr94}{19}
+\bibcite{matconvnet}{20}
+\bibcite{vgg_bmvc14}{21}
+\bibcite{nyud2_eccv12}{22}
+\bibcite{slic_pami12}{23}
