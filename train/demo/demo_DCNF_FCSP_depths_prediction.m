@@ -1,17 +1,3 @@
-
-
-
-%code author: Fayao Liu and Guosheng Lin
-%contact: fayao.liu@adelaide.edu.au; guosheng.lin@adelaide.edu.au
-
-%NOTE:
-% 1. we provide two trained models (indoor scene model trained on NYU v2 and outdoor scene
-% model trained on Make3D), which can be used for evaluating general images.
-% 2. when evaluating on NYU v2 or Make3D dataset, the results might be slightly
-% different due to different SLIC superpixel over-segmentations.
-
-
-
 function demo_DCNF_FCSP_depths_prediction(varargin)
 resizefactor=300;
 
@@ -31,25 +17,14 @@ opts=[];
 % img_dir='../NYUD2/';
 % img_type='indoor';
 
-
-% if you want to try your own images,
-% create a dataset name, put your images in '<img_dir>/',
-% then specify the trained model.
-% choose indoor or outdoor scene trained model, depends on your images.
-
-% % some indoor image examples:
 % img_dir='../custom_indoor_sample/'; 
 % img_type='indoor';
 
-
-% some outdoor image examples:
 %img_dir='../custom_outdoor_sample/';
 img_dir='../../images';
 img_type='outdoor';
 
-
-
-%folder for saving prediction results
+%result dir
 [tmp_dir, img_dir_name]=fileparts(img_dir);
 if isempty(img_dir_name)
     [~, img_dir_name]=fileparts(tmp_dir);
@@ -59,31 +34,20 @@ result_dir=fullfile('..', 'results', img_dir_name);
 
 
 ds_config=[];
-%settings we used for training our model:
-% 1. sp_size: average superpixel size in SLIC 
-% 2. max_img_edge: resize the image with the largest edge <= max_img_edge
+% 1. sp_size: superpixel size
 if strcmp(img_type, 'outdoor') 
     ds_config.sp_size=16;
     ds_config.max_img_edge=600; 
-    
-    %outdoor scene model
     trained_model_file='../model_trained/model_dcnf-fcsp_Make3D'; 
 end
 
 if strcmp(img_type, 'indoor')
     ds_config.sp_size=20; 
     ds_config.max_img_edge=640; 
-    
-    %indoor scene model
     trained_model_file='../model_trained/model_dcnf-fcsp_NYUD2';   
 end
 
-
-
-
-
 opts.useGpu=false;
-% opts.useGpu=true;
 
 if opts.useGpu
     if gpuDeviceCount==0
@@ -113,8 +77,7 @@ opts_eval=[];
 opts_eval.result_dir=result_dir;
 opts_eval.useGpu = opts.useGpu;
 
-
-%turn this on to show depths in log scale, better visulization for outdoor scenes
+% log depth
 if strcmpi(img_type, 'indoor')
     opts_eval.do_show_log_scale=false; 
 end
@@ -191,8 +154,6 @@ for img_idx=1:img_num
 
     depths_pred = do_model_evaluate(model_trained, ds_info, opts_eval);
 
-
-    fprintf('inpaiting using Anat Levin`s colorization code, this may take a while...\n');
     depths_inpaint = do_inpainting(depths_pred, img_data, sp_info);
 
     fprintf('saving prediction results in: %s\n', result_dir);
@@ -200,49 +161,6 @@ for img_idx=1:img_num
     opts_eval.img_file_name=one_img_file;
     do_save_prediction( depths_inpaint, opts_eval,resizefactor,one_img_file);
 
-    close all
-    
+    close all 
 end
-
-
-
-
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
