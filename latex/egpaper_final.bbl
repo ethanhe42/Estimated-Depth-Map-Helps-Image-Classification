@@ -1,0 +1,599 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{none/global}
+    \entry{liu2015deep}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=809ed78efc3a4499885544ba6e47e334}{%
+           family={Liu},
+           family_i={L\bibinitperiod},
+           given={Fayao},
+           given_i={F\bibinitperiod}}}%
+        {{hash=9e49384c78f6861746fe787b12339aed}{%
+           family={Shen},
+           family_i={S\bibinitperiod},
+           given={Chunhua},
+           given_i={C\bibinitperiod}}}%
+        {{hash=59d7d84d66913dec460f697e9b938174}{%
+           family={Lin},
+           family_i={L\bibinitperiod},
+           given={Guosheng},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f3910403c5b459148cd2388aee627424}
+      \strng{fullhash}{f3910403c5b459148cd2388aee627424}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}
+      \field{title}{Deep convolutional neural fields for depth estimation from a single image}
+      \field{year}{2015}
+      \field{pages}{5162\bibrangedash 5170}
+      \range{pages}{9}
+    \endentry
+    \entry{eigen2014depth}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=19ac0399a087af1f10403369b2bf52b0}{%
+           family={Eigen},
+           family_i={E\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+        {{hash=23ae0370ddd373ba5ecfa35f0751f0e8}{%
+           family={Puhrsch},
+           family_i={P\bibinitperiod},
+           given={Christian},
+           given_i={C\bibinitperiod}}}%
+        {{hash=a6784304d1cc890b2cb6c6c7f2f3fd76}{%
+           family={Fergus},
+           family_i={F\bibinitperiod},
+           given={Rob},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{197fa2ffe018b03596676376c8771317}
+      \strng{fullhash}{197fa2ffe018b03596676376c8771317}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in neural information processing systems}
+      \field{title}{Depth map prediction from a single image using a multi-scale deep network}
+      \field{year}{2014}
+      \field{pages}{2366\bibrangedash 2374}
+      \range{pages}{9}
+    \endentry
+    \entry{hedau2010thinking}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=d9bf657159c5c19fed591e59ee246186}{%
+           family={Hedau},
+           family_i={H\bibinitperiod},
+           given={Varsha},
+           given_i={V\bibinitperiod}}}%
+        {{hash=5dc4a38021d9a3a2f33342dab9f7e3dd}{%
+           family={Hoiem},
+           family_i={H\bibinitperiod},
+           given={Derek},
+           given_i={D\bibinitperiod}}}%
+        {{hash=751a9393d43438966f829203de48f8d4}{%
+           family={Forsyth},
+           family_i={F\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{7b5acae2ec96b0ead4e1353ddcc6a02e}
+      \strng{fullhash}{7b5acae2ec96b0ead4e1353ddcc6a02e}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Computer Vision--ECCV 2010}
+      \field{title}{Thinking inside the box: Using appearance models and context based on room geometry}
+      \field{year}{2010}
+      \field{pages}{224\bibrangedash 237}
+      \range{pages}{14}
+    \endentry
+    \entry{gupta2010estimating}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=83dd9d464c9f0ea982254939a7f021d8}{%
+           family={Gupta},
+           family_i={G\bibinitperiod},
+           given={Abhinav},
+           given_i={A\bibinitperiod}}}%
+        {{hash=c4c76fca369ecb436d9729820e745123}{%
+           family={Hebert},
+           family_i={H\bibinitperiod},
+           given={Martial},
+           given_i={M\bibinitperiod}}}%
+        {{hash=45496c6a7530cfbfb4f3218a2602b77e}{%
+           family={Kanade},
+           family_i={K\bibinitperiod},
+           given={Takeo},
+           given_i={T\bibinitperiod}}}%
+        {{hash=0acd0349006f4ee348ffe16e1fe1fe21}{%
+           family={Blei},
+           family_i={B\bibinitperiod},
+           given={David\bibnamedelima M},
+           given_i={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0871533a6afac7861cbfc97ace2470a}
+      \strng{fullhash}{777c0aca149a38f41f49d3646fa19c45}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in neural information processing systems}
+      \field{title}{Estimating spatial layout of rooms using volumetric reasoning about objects and surfaces}
+      \field{year}{2010}
+      \field{pages}{1288\bibrangedash 1296}
+      \range{pages}{9}
+    \endentry
+    \entry{gupta2010blocks}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=83dd9d464c9f0ea982254939a7f021d8}{%
+           family={Gupta},
+           family_i={G\bibinitperiod},
+           given={Abhinav},
+           given_i={A\bibinitperiod}}}%
+        {{hash=294246de7e87ead6f75f784bcb71cdce}{%
+           family={Efros},
+           family_i={E\bibinitperiod},
+           given={Alexei\bibnamedelima A},
+           given_i={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c4c76fca369ecb436d9729820e745123}{%
+           family={Hebert},
+           family_i={H\bibinitperiod},
+           given={Martial},
+           given_i={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3f62258f4e6087e84d1cec2933ab9223}
+      \strng{fullhash}{3f62258f4e6087e84d1cec2933ab9223}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Computer Vision--ECCV 2010}
+      \field{title}{Blocks world revisited: Image understanding using qualitative geometry and mechanics}
+      \field{year}{2010}
+      \field{pages}{482\bibrangedash 496}
+      \range{pages}{15}
+    \endentry
+    \entry{ladicky2014pulling}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=ec662ecf8120e60dfc008f153c819502}{%
+           family={Ladicky},
+           family_i={L\bibinitperiod},
+           given={Lubor},
+           given_i={L\bibinitperiod}}}%
+        {{hash=159989720a07cffdf1f8afdcf19f925d}{%
+           family={Shi},
+           family_i={S\bibinitperiod},
+           given={Jianbo},
+           given_i={J\bibinitperiod}}}%
+        {{hash=501629493a5ead2d23ee597103478ce8}{%
+           family={Pollefeys},
+           family_i={P\bibinitperiod},
+           given={Marc},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{924933329bf2dbb2425cde08a9b8cd19}
+      \strng{fullhash}{924933329bf2dbb2425cde08a9b8cd19}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}
+      \field{title}{Pulling things out of perspective}
+      \field{year}{2014}
+      \field{pages}{89\bibrangedash 96}
+      \range{pages}{8}
+    \endentry
+    \entry{razavian2014cnn}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=ac42ba3a2ab8ffc44848fdc604d8d10c}{%
+           family={Razavian},
+           family_i={R\bibinitperiod},
+           given={Ali},
+           given_i={A\bibinitperiod}}}%
+        {{hash=c17edee7ec28bf43377cb1536c940e54}{%
+           family={Azizpour},
+           family_i={A\bibinitperiod},
+           given={Hossein},
+           given_i={H\bibinitperiod}}}%
+        {{hash=978b385f0a467be210c02e0d38d629b3}{%
+           family={Sullivan},
+           family_i={S\bibinitperiod},
+           given={Josephine},
+           given_i={J\bibinitperiod}}}%
+        {{hash=1480cff181b9fdbed3df384403e2ffeb}{%
+           family={Carlsson},
+           family_i={C\bibinitperiod},
+           given={Stefan},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8e793177997b7e28dc15c921971a4d2d}
+      \strng{fullhash}{e55d2ba1ba6a5b773055a9eefb11019a}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops}
+      \field{title}{CNN features off-the-shelf: an astounding baseline for recognition}
+      \field{year}{2014}
+      \field{pages}{806\bibrangedash 813}
+      \range{pages}{8}
+    \endentry
+    \entry{eigen2015predicting}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=19ac0399a087af1f10403369b2bf52b0}{%
+           family={Eigen},
+           family_i={E\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+        {{hash=a6784304d1cc890b2cb6c6c7f2f3fd76}{%
+           family={Fergus},
+           family_i={F\bibinitperiod},
+           given={Rob},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d8a4ce4a6b9e5090760b9f78ae89e8d}
+      \strng{fullhash}{3d8a4ce4a6b9e5090760b9f78ae89e8d}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE International Conference on Computer Vision}
+      \field{title}{Predicting depth, surface normals and semantic labels with a common multi-scale convolutional architecture}
+      \field{year}{2015}
+      \field{pages}{2650\bibrangedash 2658}
+      \range{pages}{9}
+    \endentry
+    \entry{ojala1994performance}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=b0483cd486d1e6f4e40503191aa7817b}{%
+           family={Ojala},
+           family_i={O\bibinitperiod},
+           given={Timo},
+           given_i={T\bibinitperiod}}}%
+        {{hash=b21df68b3d6c107d4dcdab256d82947e}{%
+           family={Pietikainen},
+           family_i={P\bibinitperiod},
+           given={Matti},
+           given_i={M\bibinitperiod}}}%
+        {{hash=0066f82967def6e72815eab2b58baba3}{%
+           family={Harwood},
+           family_i={H\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{83d9686037356c2d22c53099ab1e6d8b}
+      \strng{fullhash}{83d9686037356c2d22c53099ab1e6d8b}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Pattern Recognition, 1994. Vol. 1-Conference A: Computer Vision \&amp; Image Processing., Proceedings of the 12th IAPR International Conference on}
+      \field{title}{Performance evaluation of texture measures with classification based on Kullback discrimination of distributions}
+      \field{volume}{1}
+      \field{year}{1994}
+      \field{pages}{582\bibrangedash 585}
+      \range{pages}{4}
+    \endentry
+    \entry{saxena2005learning}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=67f02ce63ca87ebe02c438c1bf6cef57}{%
+           family={Saxena},
+           family_i={S\bibinitperiod},
+           given={Ashutosh},
+           given_i={A\bibinitperiod}}}%
+        {{hash=22568e864bd13c175bfba4127392e163}{%
+           family={Chung},
+           family_i={C\bibinitperiod},
+           given={Sung\bibnamedelima H},
+           given_i={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=799b172b8d02b7acdf21d0cc48934fca}{%
+           family={Ng},
+           family_i={N\bibinitperiod},
+           given={Andrew\bibnamedelima Y},
+           given_i={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{32496ca5d2bc11bba8ccd029f03352fc}
+      \strng{fullhash}{32496ca5d2bc11bba8ccd029f03352fc}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Learning depth from single monocular images}
+      \field{year}{2005}
+      \field{pages}{1161\bibrangedash 1168}
+      \range{pages}{8}
+    \endentry
+    \entry{tensorflow2015-whitepaper}{misc}{}
+      \name{author}{40}{}{%
+        {{hash=3ee87a766009a829231f92dfc7eb5cb5}{%
+           family={Mart\'{\i{}}n\bibnamedelima Abadi},
+           family_i={M\bibinitperiod}}}%
+        {{hash=6484757a54ad32eee1fb6f23a852feed}{%
+           family={Ashish\bibnamedelima Agarwal},
+           family_i={A\bibinitperiod}}}%
+        {{hash=363d0bd454a0acf5e160018cc47679cb}{%
+           family={Paul\bibnamedelima Barham},
+           family_i={P\bibinitperiod}}}%
+        {{hash=36935e9e96522c790fcef64db648b74b}{%
+           family={Eugene\bibnamedelima Brevdo},
+           family_i={E\bibinitperiod}}}%
+        {{hash=8c2edbc42572974d8f58b80f1b7a82b8}{%
+           family={Zhifeng\bibnamedelima Chen},
+           family_i={Z\bibinitperiod}}}%
+        {{hash=d64184d5c7ebf0bff2da33def2c1daea}{%
+           family={Craig\bibnamedelima Citro},
+           family_i={C\bibinitperiod}}}%
+        {{hash=3e5c2a3e735a28413c9345dce8945382}{%
+           family={Greg\bibnamedelima S.\bibnamedelimi Corrado},
+           family_i={C\bibinitperiod}}}%
+        {{hash=19cd724592ffc2c23adc3a351ae04818}{%
+           family={Andy\bibnamedelima Davis},
+           family_i={A\bibinitperiod}}}%
+        {{hash=1b1db793dba9fd87f2888084b31dad29}{%
+           family={Jeffrey\bibnamedelima Dean},
+           family_i={J\bibinitperiod}}}%
+        {{hash=a4beec028e32d2bc29fe1513c1402bb3}{%
+           family={Matthieu\bibnamedelima Devin},
+           family_i={M\bibinitperiod}}}%
+        {{hash=9c4b47d3e11d9b90aae441127f97dd79}{%
+           family={Sanjay\bibnamedelima Ghemawat},
+           family_i={S\bibinitperiod}}}%
+        {{hash=4f74a122133d7b67dcf443cdb4d3ba00}{%
+           family={Ian\bibnamedelima Goodfellow},
+           family_i={I\bibinitperiod}}}%
+        {{hash=9d272867c5ab5024df5fc861485ad56f}{%
+           family={Andrew\bibnamedelima Harp},
+           family_i={A\bibinitperiod}}}%
+        {{hash=d9984de031c203c48c5de1f785220cbf}{%
+           family={Geoffrey\bibnamedelima Irving},
+           family_i={G\bibinitperiod}}}%
+        {{hash=ec17cfcde99ebed9a72ff7ee449da430}{%
+           family={Michael\bibnamedelima Isard},
+           family_i={M\bibinitperiod}}}%
+        {{hash=9fce03efe6b3331a1b93ed2e7c0da9d5}{%
+           family={Jia},
+           family_i={J\bibinitperiod},
+           given={Yangqing},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=2d62ba69437cf1242ab96585123e8090}{%
+           family={Rafal\bibnamedelima Jozefowicz},
+           family_i={R\bibinitperiod}}}%
+        {{hash=2da41a2c3b85a2a33fc96a033e19e854}{%
+           family={Lukasz\bibnamedelima Kaiser},
+           family_i={L\bibinitperiod}}}%
+        {{hash=e949a308d49174d45e8466d134158cb6}{%
+           family={Manjunath\bibnamedelima Kudlur},
+           family_i={M\bibinitperiod}}}%
+        {{hash=7746c6a7e11b8d8783c883ebe4f05811}{%
+           family={Josh\bibnamedelima Levenberg},
+           family_i={J\bibinitperiod}}}%
+        {{hash=3abf922e093c76f0cac8ddcd544a85a7}{%
+           family={Dan\bibnamedelima Man\'{e}},
+           family_i={D\bibinitperiod}}}%
+        {{hash=2f1cb989adad55ce8fe49ce1cd21e476}{%
+           family={Rajat\bibnamedelima Monga},
+           family_i={R\bibinitperiod}}}%
+        {{hash=932c35b6750d308bab42b7be41a1e97f}{%
+           family={Sherry\bibnamedelima Moore},
+           family_i={S\bibinitperiod}}}%
+        {{hash=5601ebe22742e92a96eb4dc5f1420472}{%
+           family={Derek\bibnamedelima Murray},
+           family_i={D\bibinitperiod}}}%
+        {{hash=370cf3ba4b3dab98e9fe17565bcc9d13}{%
+           family={Chris\bibnamedelima Olah},
+           family_i={C\bibinitperiod}}}%
+        {{hash=a94f76acdb582d668dd64419448eceac}{%
+           family={Mike\bibnamedelima Schuster},
+           family_i={M\bibinitperiod}}}%
+        {{hash=ee4af4a6ef4e45adb464e4649b58727b}{%
+           family={Jonathon\bibnamedelima Shlens},
+           family_i={J\bibinitperiod}}}%
+        {{hash=5d2cfee8a5cc20953c5ab3b3093e5802}{%
+           family={Benoit\bibnamedelima Steiner},
+           family_i={B\bibinitperiod}}}%
+        {{hash=a5aa3398f4db70fce5f95429b615d485}{%
+           family={Ilya\bibnamedelima Sutskever},
+           family_i={I\bibinitperiod}}}%
+        {{hash=343da771330de282efb35b66924e931a}{%
+           family={Kunal\bibnamedelima Talwar},
+           family_i={K\bibinitperiod}}}%
+        {{hash=177c6dbcde719e364244ce3d3af70f42}{%
+           family={Paul\bibnamedelima Tucker},
+           family_i={P\bibinitperiod}}}%
+        {{hash=e7d07939b62ca40bce7edf20e91353ad}{%
+           family={Vincent\bibnamedelima Vanhoucke},
+           family_i={V\bibinitperiod}}}%
+        {{hash=76f098771e37211632499de837596d67}{%
+           family={Vijay\bibnamedelima Vasudevan},
+           family_i={V\bibinitperiod}}}%
+        {{hash=ed7b5debda45346e7c5215d9e5ac0d69}{%
+           family={Fernanda\bibnamedelima Vi\'{e}gas},
+           family_i={F\bibinitperiod}}}%
+        {{hash=9a7adc5a0686b3b2510e47c23805274d}{%
+           family={Oriol\bibnamedelima Vinyals},
+           family_i={O\bibinitperiod}}}%
+        {{hash=12a8c841e3a2329ff94f16039686cf05}{%
+           family={Pete\bibnamedelima Warden},
+           family_i={P\bibinitperiod}}}%
+        {{hash=d5737f0c4be2ecc08c660a0b2ba965c9}{%
+           family={Martin\bibnamedelima Wattenberg},
+           family_i={M\bibinitperiod}}}%
+        {{hash=c1b76aa7f4c970a9da35e801f917e8cf}{%
+           family={Martin\bibnamedelima Wicke},
+           family_i={M\bibinitperiod}}}%
+        {{hash=d71c4759bc9cdb6d9ecab502aedf85e7}{%
+           family={Yuan\bibnamedelima Yu},
+           family_i={Y\bibinitperiod}}}%
+        {{hash=d84a11a3b9072f97eb2e3cb1b163b5a2}{%
+           family={Xiaoqiang\bibnamedelima Zheng},
+           family_i={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1cb6fcd3103a44ac222112bfbb191ec}
+      \strng{fullhash}{6977d01c341115237ca7c1d58f312803}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Software available from tensorflow.org}
+      \field{title}{{TensorFlow}: Large-Scale Machine Learning on Heterogeneous Systems}
+      \field{year}{2015}
+      \verb{url}
+      \verb http://tensorflow.org/
+      \endverb
+    \endentry
+    \entry{chatfield2014return}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d60fbea8529bcbb4ba50e65c2fb075fb}{%
+           family={Chatfield},
+           family_i={C\bibinitperiod},
+           given={Ken},
+           given_i={K\bibinitperiod}}}%
+        {{hash=9d16b7284df92c9adaee86c37ab992df}{%
+           family={Simonyan},
+           family_i={S\bibinitperiod},
+           given={Karen},
+           given_i={K\bibinitperiod}}}%
+        {{hash=85ab53268da1006b51b453d57d3566f2}{%
+           family={Vedaldi},
+           family_i={V\bibinitperiod},
+           given={Andrea},
+           given_i={A\bibinitperiod}}}%
+        {{hash=c72fc39e94030f67717052309266a44d}{%
+           family={Zisserman},
+           family_i={Z\bibinitperiod},
+           given={Andrew},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c1d6236f5a2fb37097a96e6249f1864}
+      \strng{fullhash}{12d7c458ea55850809de7b0934c10788}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1405.3531}
+      \field{title}{Return of the devil in the details: Delving deep into convolutional nets}
+      \field{year}{2014}
+    \endentry
+    \entry{liu2014discrete}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=1d0e66d0ebaafa802ff58e9cf7c7d951}{%
+           family={Liu},
+           family_i={L\bibinitperiod},
+           given={Miaomiao},
+           given_i={M\bibinitperiod}}}%
+        {{hash=4057fd915327931bbf3dd5ef41bacf61}{%
+           family={Salzmann},
+           family_i={S\bibinitperiod},
+           given={Mathieu},
+           given_i={M\bibinitperiod}}}%
+        {{hash=be10c8d9ed218a03b79ed4d51b938110}{%
+           family={He},
+           family_i={H\bibinitperiod},
+           given={Xuming},
+           given_i={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{65b0328d25ddade2474e0ab817398d49}
+      \strng{fullhash}{65b0328d25ddade2474e0ab817398d49}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}
+      \field{title}{Discrete-continuous depth estimation from a single image}
+      \field{year}{2014}
+      \field{pages}{716\bibrangedash 723}
+      \range{pages}{8}
+    \endentry
+    \entry{krizhevsky2009learning}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=c5e3a676e2ac1164b3afcd539c131fc9}{%
+           family={Krizhevsky},
+           family_i={K\bibinitperiod},
+           given={Alex},
+           given_i={A\bibinitperiod}}}%
+        {{hash=9a8750ccdb2a4cf14d2655face1ce016}{%
+           family={Hinton},
+           family_i={H\bibinitperiod},
+           given={Geoffrey},
+           given_i={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{db1738a0374d10d152a785eb2a94ce8c}
+      \strng{fullhash}{db1738a0374d10d152a785eb2a94ce8c}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Learning multiple layers of features from tiny images}
+      \field{year}{2009}
+    \endentry
+    \entry{he2015deep}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6b4b60e909e78633945f3f9c9dc83e01}{%
+           family={He},
+           family_i={H\bibinitperiod},
+           given={Kaiming},
+           given_i={K\bibinitperiod}}}%
+        {{hash=5e72bc22dbcf0984c6d113d280e36990}{%
+           family={Zhang},
+           family_i={Z\bibinitperiod},
+           given={Xiangyu},
+           given_i={X\bibinitperiod}}}%
+        {{hash=bb295293acacd54387339079ebbe4ead}{%
+           family={Ren},
+           family_i={R\bibinitperiod},
+           given={Shaoqing},
+           given_i={S\bibinitperiod}}}%
+        {{hash=f85751488058842b5777c7b4074077b5}{%
+           family={Sun},
+           family_i={S\bibinitperiod},
+           given={Jian},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{3733dbdff90171390240438fddfbc952}
+      \strng{fullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1512.03385}
+      \field{title}{Deep Residual Learning for Image Recognition}
+      \field{year}{2015}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

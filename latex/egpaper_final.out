@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{. Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{. Related Work}{}% 2
+\BOOKMARK [1][-]{section.3}{. Deep Convolutional Neural Field}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{. Theory and Architecture}{section.3}% 4
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Unary part}{subsection.3.1}% 5
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Pairwise part}{subsection.3.1}% 6
+\BOOKMARK [2][-]{subsection.3.2}{. Implementation Details}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{. Experiment}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{. RGBD Image for Classification}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{. Build RGBD CIFAR10 Dataset}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{. Classification Task on RGBD CIFAR10}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.3}{. Experiment}{section.4}% 12
+\BOOKMARK [3][-]{subsubsection.4.3.1}{R vs G vs B vs D}{subsection.4.3}% 13
+\BOOKMARK [3][-]{subsubsection.4.3.2}{RGB vs RGBD}{subsection.4.3}% 14
+\BOOKMARK [1][-]{section.5}{. Further Work}{}% 15
+\BOOKMARK [2][-]{subsection.5.1}{. Depth Estimation}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.2}{. Learning on RGBD Dataset}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.3}{. Learning on RGBD\(ground-truth\) vs RGBD\(estimated\)}{section.5}% 18
+\BOOKMARK [1][-]{section.6}{. Conclusion}{}% 19
