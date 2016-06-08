@@ -60,9 +60,8 @@ We consider the problem of doing image classification using estimated depth
 information. This problem clearly falls into the domain of transfer learning, since we are using a model trained on a set of depth images in order to generate depth maps (additional features) for use in another classification problem using another disjoin set of images. It is a challenging task as no direct depth information is 
 provided. Previous related research efforts have been focused on image classification tasks using
 RGB images and depth image estimation but none have attempted to use depth image estimations in order to aid image classification over RGB images. Therefore, in this paper we present a way of 
-transfering domain knowledge on depth estimation to a seperate image classification task over a disjoint set of training/test data. 
-To our knowledge, we are the first to bridge gap between image classification 
-and depth estimation.
+transferring domain knowledge on depth estimation to a seperate image classification task over a disjoint set of training,validation and test data. 
+To our knowledge, we are the first to bridge gap between image classification and depth estimation.
 
 Specifically, we attempt to implement the recent work by Fayao 
 Liu \etal\cite{liu2015deep}, build a RGBD dataset and do image classification 
@@ -77,16 +76,15 @@ https://github.com/yihui-he/Depth-estimation-with-neural-network
 \section{Introduction}
 Estimating depths from a single monocular image depicting 
 general scenes is a fundamental problem in computer vision, 
-which has found wide applications in scene understanding, 
-3D modeling, robotics, etc.
-It is a notoriously ill-posed problem, 
+which has widespread applications in scene-understanding, 
+3D modeling, robotics, and other challenging problems.
+It is a notorious example of an ill-posed problem, 
 as one captured image may correspond to numerous real world scenes\cite{eigen2014depth}. 
 it remains a challenging task for computer vision algorithms as no reliable cues can be exploited,
 such as temporal information, stereo correspondences, \etc.
-Previous work mainly focus on Depth estimation,
-using 
+Previous research involving depth-maps usually involv
 geometric\cite{hedau2010thinking,gupta2010estimating,gupta2010blocks} 
-or CNN\cite{liu2015deep} approach,
+approach or CNN\cite{liu2015deep} approach,
 , and Semantic labeling\cite{ladicky2014pulling} with depth information.
 Nevertheless, all these works didn't try to do recognition with depth map.
 
@@ -96,23 +94,20 @@ While extensively studied in semantic labeling and accuracy improvement,
 depth map regression has been less explored for classification problems.
 
 Recently, the efficacy and power of the deep
-convolutional neural network (CNN) has been discovered and utilized. 
-With a CNN, we are able to do depth estimation on a single image\cite{liu2015deep}.
+convolutional neural network (CNN) has been harnessed. 
+With a CNN, we are able to perform depth estimation on a single image\cite{liu2015deep}.
 However, most classification tasks still perform on RGB images.
-With only RGB images, 
-CNN features have been setting new records for a wide variety of vision applications\cite{razavian2014cnn}.
+With only RGB images, CNN features have been setting new records for a wide variety of vision applications\cite{razavian2014cnn}.
 Despite all the successes in depth estimation and image classification,
-deep CNN has been less explored for learning on RGBD images, since RGBD datasets are not as widely-used as RGB datasets .
-To our knowledge, we are the first to bridge gap between depth estimation and 
-image classification.
+the deep CNN has been not yet been used for learning on RGBD images, since RGBD datasets are not as widely-used as RGB datasets .
+To our knowledge, we are the first to bridge gap between depth estimation and image classification.
 
 To sum up, we highlight the main contributions of this work as follows:
 \begin{itemize}
 \vspace{-.12cm} \item 
-We reproduce deep convoluntional neural field on depth estimation problem, 
-and get similar results.
+We implemented a deep convoluntional neural field on depth estimation problem and obtained similiar results
 \vspace{-.12cm} \item
-We create the first RGBD image dataset for CIFAR10.
+We created the first RGBD image dataset for CIFAR10.
 \vspace{-.12cm} \item 
 We define a new metric for ill-posed depth prediction problem.
 \vspace{-.12cm} \item 
@@ -449,7 +444,7 @@ Compare the accuracy of Learning on RGBD(ground-truth) vs RGBD(estimated).
 
 %-------------------------------------------------------------------------
 \section{Conclusion}
-We successfully reproduce the state-of-the-art depth estimation model.
+We successfully reimplemented the state-of-the-art depth-estimation model using
 We create the first RGBD image dataset for CIFAR10, and investigate its quality 
 using our metric.
 We define a transfer learning accuracy metric for depth prediction problem.
@@ -461,18 +456,18 @@ classification accuracy.
 \section*{Role Clarification}
 We divide our teamwork as follow. {\bf Yihui}'s contribution:
 \begin{enumerate*}
-\item proposes idea. 
-\item implement deep convolutional neural field. 
-\item create RGBD CIFAR10 dataset. 
-\item do experiment for 2-layer neural network on RGBD dataset.
-\item prepare presentation.
+\item Proposed idea.
+\item Implemented deep convolutional neural field 
+\item Create RGBD CIFAR10 dataset
+\item Perform experiment for 2-layer neural network on RGBD dataset.
+\item prepare presentation
 \item edit final report.
 \end{enumerate*}
 {\bf Metehan}'s contribution:
 \begin{enumerate*}
-\item discuss idea.
-\item implement and do experiment for AlexNet on RGBD dataset. 
-\item prepare presentation. 
+\item Discussed idea.
+\item implement and perform experiment using AlexNet (CNN) on RGBD dataset. 
+\item prepare presentation 
 \item edit final report.
 \end{enumerate*}
 
