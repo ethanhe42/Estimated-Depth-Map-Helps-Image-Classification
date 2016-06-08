@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.18)  5 JUN 2016 23:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.18)  8 JUN 2016 11:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -660,12 +660,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 77.
+(hyperref)                removed on input line 76.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 125.
+(hyperref)                removed on input line 118.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -674,42 +674,41 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 148.
+(hyperref)                removed on input line 141.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 151.
+(hyperref)                removed on input line 144.
 
-<../presentation/arch.png, id=114, 887.315pt x 459.7175pt>
-File: ../presentation/arch.png Graphic file (type png)
+<arch.png, id=118, 958.58125pt x 558.085pt>
+File: arch.png Graphic file (type png)
+ <use arch.png>
+Package pdftex.def Info: arch.png used on input line 177.
+(pdftex.def)             Requested size: 447.16759pt x 260.34138pt.
 
-<use ../presentation/arch.png>
-Package pdftex.def Info: ../presentation/arch.png used on input line 184.
-(pdftex.def)             Requested size: 213.4209pt x 110.57295pt.
-
-<../presentation/fig/cnn_unary.pdf, id=116, 779.91376pt x 113.42375pt>
+<../presentation/fig/cnn_unary.pdf, id=120, 779.91376pt x 113.42375pt>
 File: ../presentation/fig/cnn_unary.pdf Graphic file (type pdf)
 
 <use ../presentation/fig/cnn_unary.pdf>
 Package pdftex.def Info: ../presentation/fig/cnn_unary.pdf used on input line 1
-96.
+89.
 (pdftex.def)             Requested size: 496.85625pt x 72.25864pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 208.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 200.
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no — in font ptmr7t!
 
-Underfull \hbox (badness 2573) in paragraph at lines 213--223
+Underfull \hbox (badness 2573) in paragraph at lines 204--214
 \OT1/ptm/m/n/10 Here $[]$ is the re-gressed depth of the su-per-pixel $\OML/cmm
 /m/it/10 p$
  []
 
-[2 <../presentation/arch.png>]
+[2]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 237.
+(hyperref)                removed on input line 228.
 
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no ˆ in font ptmr7t!
@@ -717,66 +716,62 @@ Missing character: There is no ¼ in font ptmr7t!
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 254.
+(hyperref)                removed on input line 244.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 287.
-<../learntd.png, id=146, 687.56876pt x 615.29875pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 277.
+<../learntd.png, id=151, 687.56876pt x 615.29875pt>
 File: ../learntd.png Graphic file (type png)
  <use ../learntd.png>
-Package pdftex.def Info: ../learntd.png used on input line 293.
+Package pdftex.def Info: ../learntd.png used on input line 283.
 (pdftex.def)             Requested size: 237.13594pt x 212.20319pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 299.
+(hyperref)                removed on input line 289.
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 300--312
-\OT1/ptm/m/n/10 depth es-ti-ma-tion[[]1[]] and sege-men-ta-tion with depth im-
- []
+Underfull \vbox (badness 4217) has occurred while \output is active []
 
+ [3 <./arch.png> <../presentation/fig/cnn_unary.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 313.
+(hyperref)                removed on input line 302.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3 <../presentation/fig/cnn_unary.pdf> <../learntd.png>]
-Underfull \hbox (badness 3690) in paragraph at lines 317--319
+Underfull \hbox (badness 3690) in paragraph at lines 306--308
 []\OT1/ptm/m/n/10 resize CI-FAR10 tiny im-age(32x32x3) to nor-mal
  []
 
-<../dataset.png, id=207, 897.3525pt x 477.785pt>
+<../dataset.png, id=210, 897.3525pt x 477.785pt>
 File: ../dataset.png Graphic file (type png)
  <use ../dataset.png>
-Package pdftex.def Info: ../dataset.png used on input line 326.
+Package pdftex.def Info: ../dataset.png used on input line 315.
 (pdftex.def)             Requested size: 237.13594pt x 126.25519pt.
 
-<../tiny.png, id=209, 910.40125pt x 744.7825pt>
+<../tiny.png, id=212, 910.40125pt x 744.7825pt>
 File: ../tiny.png Graphic file (type png)
  <use ../tiny.png>
-Package pdftex.def Info: ../tiny.png used on input line 339.
+Package pdftex.def Info: ../tiny.png used on input line 328.
 (pdftex.def)             Requested size: 237.13594pt x 193.99118pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 344.
+(hyperref)                removed on input line 333.
 
-<../Tarch.png, id=211, 712.6625pt x 439.6425pt>
+<../Tarch.png, id=214, 712.6625pt x 439.6425pt>
 File: ../Tarch.png Graphic file (type png)
  <use ../Tarch.png>
-Package pdftex.def Info: ../Tarch.png used on input line 349.
+Package pdftex.def Info: ../Tarch.png used on input line 338.
 (pdftex.def)             Requested size: 237.13594pt x 146.28998pt.
-
+ [4 <../learntd.png> <../dataset.png> <../tiny.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 374.
+(hyperref)                removed on input line 363.
 
 Package epstopdf Info: Source file: <../presentation/train.eps>
 (epstopdf)                    date: 2016-05-22 11:21:35
@@ -787,14 +782,14 @@ Package epstopdf Info: Source file: <../presentation/train.eps>
 (epstopdf)                    size: 17097 bytes
 (epstopdf)             Command: <repstopdf --outfile=../presentation/train-eps-
 converted-to.pdf ../presentation/train.eps>
-(epstopdf)             \includegraphics on input line 386.
+(epstopdf)             \includegraphics on input line 375.
 Package epstopdf Info: Output file is already uptodate.
-<../presentation/train-eps-converted-to.pdf, id=215, 578.16pt x 433.62pt>
+<../presentation/train-eps-converted-to.pdf, id=230, 578.16pt x 433.62pt>
 File: ../presentation/train-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../presentation/train-eps-converted-to.pdf>
 Package pdftex.def Info: ../presentation/train-eps-converted-to.pdf used on inp
-ut line 386.
+ut line 375.
 (pdftex.def)             Requested size: 237.13594pt x 177.85152pt.
 Package epstopdf Info: Source file: <../presentation/test.eps>
 (epstopdf)                    date: 2016-05-22 11:21:40
@@ -805,15 +800,15 @@ Package epstopdf Info: Source file: <../presentation/test.eps>
 (epstopdf)                    size: 17429 bytes
 (epstopdf)             Command: <repstopdf --outfile=../presentation/test-eps-c
 onverted-to.pdf ../presentation/test.eps>
-(epstopdf)             \includegraphics on input line 391.
+(epstopdf)             \includegraphics on input line 380.
 Package epstopdf Info: Output file is already uptodate.
 
-<../presentation/test-eps-converted-to.pdf, id=216, 578.16pt x 433.62pt>
+<../presentation/test-eps-converted-to.pdf, id=231, 578.16pt x 433.62pt>
 File: ../presentation/test-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ../presentation/test-eps-converted-to.pdf>
 Package pdftex.def Info: ../presentation/test-eps-converted-to.pdf used on inpu
-t line 391.
+t line 380.
 (pdftex.def)             Requested size: 237.13594pt x 177.85152pt.
 Package epstopdf Info: Source file: <../presentation/together_train.eps>
 (epstopdf)                    date: 2016-05-23 01:08:58
@@ -824,16 +819,16 @@ ed-to.pdf>
 (epstopdf)                    size: 16648 bytes
 (epstopdf)             Command: <repstopdf --outfile=../presentation/together_t
 rain-eps-converted-to.pdf ../presentation/together_train.eps>
-(epstopdf)             \includegraphics on input line 406.
+(epstopdf)             \includegraphics on input line 394.
 Package epstopdf Info: Output file is already uptodate.
 
-<../presentation/together_train-eps-converted-to.pdf, id=219, 578.16pt x 433.62
+<../presentation/together_train-eps-converted-to.pdf, id=234, 578.16pt x 433.62
 pt>
 File: ../presentation/together_train-eps-converted-to.pdf Graphic file (type pd
 f)
  <use ../presentation/together_train-eps-converted-to.pdf>
 Package pdftex.def Info: ../presentation/together_train-eps-converted-to.pdf us
-ed on input line 406.
+ed on input line 394.
 (pdftex.def)             Requested size: 237.13594pt x 177.85152pt.
 Package epstopdf Info: Source file: <../presentation/together_test.eps>
 (epstopdf)                    date: 2016-05-23 01:09:03
@@ -844,43 +839,50 @@ d-to.pdf>
 (epstopdf)                    size: 13981 bytes
 (epstopdf)             Command: <repstopdf --outfile=../presentation/together_t
 est-eps-converted-to.pdf ../presentation/together_test.eps>
-(epstopdf)             \includegraphics on input line 411.
+(epstopdf)             \includegraphics on input line 399.
 Package epstopdf Info: Output file is already uptodate.
 
-<../presentation/together_test-eps-converted-to.pdf, id=220, 578.16pt x 433.62p
+<../presentation/together_test-eps-converted-to.pdf, id=235, 578.16pt x 433.62p
 t>
 File: ../presentation/together_test-eps-converted-to.pdf Graphic file (type pdf
 )
  <use ../presentation/together_test-eps-converted-to.pdf>
 Package pdftex.def Info: ../presentation/together_test-eps-converted-to.pdf use
-d on input line 411.
+d on input line 399.
 (pdftex.def)             Requested size: 237.13594pt x 177.85152pt.
- [4 <../dataset.png> <../tiny.png> <../Tarch.png>]
+ [5 <../Tarch.png> <../presentation/train-eps-converted-to.pdf> <../presentatio
+n/test-eps-converted-to.pdf> <../presentation/together_train-eps-converted-to.p
+df>]
+<../presentation/test_conv.png, id=335, 602.25pt x 372.39125pt>
+File: ../presentation/test_conv.png Graphic file (type png)
+
+<use ../presentation/test_conv.png>
+Package pdftex.def Info: ../presentation/test_conv.png used on input line 420.
+(pdftex.def)             Requested size: 237.13594pt x 146.62982pt.
+
+<../presentation/rgb_cnn.png, id=337, 602.25pt x 372.39125pt>
+File: ../presentation/rgb_cnn.png Graphic file (type png)
+
+<use ../presentation/rgb_cnn.png>
+Package pdftex.def Info: ../presentation/rgb_cnn.png used on input line 426.
+(pdftex.def)             Requested size: 237.13594pt x 146.62982pt.
+
+<../presentation/rgbd_cnn.png, id=338, 602.25pt x 372.39125pt>
+File: ../presentation/rgbd_cnn.png Graphic file (type png)
+
+<use ../presentation/rgbd_cnn.png>
+Package pdftex.def Info: ../presentation/rgbd_cnn.png used on input line 432.
+(pdftex.def)             Requested size: 237.13594pt x 146.62982pt.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 427.
+(hyperref)                removed on input line 437.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 428.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 439.
-
-[5 <../presentation/train-eps-converted-to.pdf> <../presentation/test-eps-conve
-rted-to.pdf> <../presentation/together_train-eps-converted-to.pdf> <../presenta
-tion/together_test-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 447--447
-[] \elvbf . Learn-ing on RGBD(ground-truth) vs
- []
+(hyperref)                removed on input line 438.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -888,43 +890,72 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removed on input line 447.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <../presentation/together_test-eps-converted-to.pdf> <../presentation/test_
+conv.png> <../presentation/rgb_cnn.png> <../presentation/rgbd_cnn.png>]
+
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 451.
+(hyperref)                removed on input line 454.
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 481--481
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+\OT1/ptm/m/n/10 truth) vs RGBD(estimated). It is pos-si-ble that
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+\OT1/ptm/m/n/10 RGBD(estimated) can achieve bet-ter re-sult than
+ []
+
+
+Underfull \hbox (badness 6608) in paragraph at lines 455--456
+\OT1/ptm/m/n/10 RGBD(groud-truth), since RGBD(estimated) are ob-
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern -10.0pt
+(hyperref)                removed on input line 458.
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 459--466
+[]\OT1/ptm/m/n/10 We suc-cess-fully reim-ple-mented the state-of-the-art
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 488--488
 \OT1/ptm/m/n/10 gene Brevdo, Zhifeng Chen, Craig Citro, Greg
  []
 
-
-Underfull \hbox (badness 2932) in paragraph at lines 481--481
+[7]
+Underfull \hbox (badness 2932) in paragraph at lines 488--488
 []\OT1/ptm/m/n/10 M. Liu, M. Salz-mann, and X. He, ``Discrete-
  []
 
-[6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 483.
- [7
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 490.
+[8
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 483.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 490.
  (./egpaper_final.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 483.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 483.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 490.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 490.
 Package rerunfilecheck Info: File `egpaper_final.out' has not changed.
-(rerunfilecheck)             Checksum: AE046C2F3D34F854539D99CD10838830;1302.
+(rerunfilecheck)             Checksum: 26376E8E346DC624AD7BF8AA70E07BA6;1395.
 Package logreq Info: Writing requests to 'egpaper_final.run.xml'.
 \openout1 = `egpaper_final.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12271 strings out of 493029
- 199032 string characters out of 6136234
- 622820 words of memory out of 5000000
- 15540 multiletter control sequences out of 15000+600000
+ 12295 strings out of 493029
+ 199538 string characters out of 6136234
+ 623043 words of memory out of 5000000
+ 15555 multiletter control sequences out of 15000+600000
  30622 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,13n,45p,839b,1080s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,13n,45p,1052b,1129s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -938,10 +969,10 @@ y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 exlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on egpaper_final.pdf (7 pages, 2029641 bytes).
+Output written on egpaper_final.pdf (8 pages, 2171124 bytes).
 PDF statistics:
- 440 PDF objects out of 1000 (max. 8388607)
- 297 compressed objects within 3 object streams
- 75 named destinations out of 1000 (max. 500000)
- 203 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 465 PDF objects out of 1000 (max. 8388607)
+ 314 compressed objects within 4 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

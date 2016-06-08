@@ -2049,7 +2049,8 @@
     <bcf:citekey order="19">liu2015deep</bcf:citekey>
     <bcf:citekey order="20">eigen2015predicting</bcf:citekey>
     <bcf:citekey order="21">krizhevsky2009learning</bcf:citekey>
-    <bcf:citekey order="22">he2015deep</bcf:citekey>
+    <bcf:citekey order="22">krizhevsky2012imagenet</bcf:citekey>
+    <bcf:citekey order="23">he2015deep</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global" type="entry" sortscheme="none" sortnamekeyscheme="global">
   <bcf:sorting>

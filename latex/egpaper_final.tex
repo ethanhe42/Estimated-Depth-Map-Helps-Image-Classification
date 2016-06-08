@@ -173,11 +173,11 @@ framework.
 In Figure.\ref{fig:arch} , we show a sketch of our deep convolutional
 neural field model for depth estimation. As we can see, the whole network is 
 composed of a unary part, a pairwise part and a CRF loss layer.
-\begin{figure}
-\includegraphics[width=.9\linewidth]{../presentation/arch.png}
+\begin{figure*}
+\includegraphics[width=.9\linewidth]{arch.png}
 \caption{Deep Convolutional Neural Field model}
 \label{fig:arch}
-\end{figure}
+\end{figure*}
 
 For an input image, which has been segmented into n superpixels, we 
 consider image patches centered around each superpixel centroid. The unary part 
@@ -410,28 +410,28 @@ You can also notice that, although RGBD dataset have more inputs and neurons,
  It can be interpreted as a better feature representation brought by depth map.
 
 \subsubsection{CNN Experimentation}
-Our previous experiments using a 2-layer feedforward neural network yielded a performance increase of 4\% when comparing the accuracy of a NN trained on the RGB dataset to the NN trained on the RGBD dataset. These results did not satisfy us as a simple feedforward neural network is not the optimal tool used for image classification and so we decided to test the performance of our CNN  \cite{krizhevsky2012imagenet} over the CIFAR-10 RGB dataset and compare it to the performance achieved over our CIFAR-10 RGBD dataset. We achieved an accuracy of {\bf57.5\%} and {\bf53\%} using the RGBD and RGB datasets respectively. This performance gain of {\bf4.5\%} in accuracy between RGBD and RGB using the CNN is slightly better than the original accuracy gain {\bf4.0\%} using the 2-layer ANN.
+Our previous experiments using a 2-layer feedforward neural network yielded a performance increase of 4\% when comparing the accuracy of a NN trained on the RGB dataset to the NN trained on the RGBD dataset. These results did not satisfy us, as a simple feedforward neural network can show how good the features are presented to it, but not the optimal tool used for image classification. We want to see whether the estimated depth map truely bring in some new knowledges of depth, which can't be obtained just using RGB images. So we decided to test the performance of our CNN  \cite{krizhevsky2012imagenet} over the CIFAR-10 RGB dataset and compare it to the performance achieved over our CIFAR-10 RGBD dataset. We achieved an accuracy of {\bf57.5\%} and {\bf53\%} using the RGBD and RGB datasets respectively. This performance gain of {\bf4.5\%} in accuracy between RGBD and RGB using the CNN is slightly better than the original accuracy gain {\bf4.0\%} using the 2-layer ANN.
 
 Our convolutional neural network was composed of two convolutional layers (with subsequent max-pooling layers) followed by two fully-connected layers. 
 
-Using this convolutional neural network
+Figure \ref{fig:mixtest0}, \ref{fig:mixtest1}, \ref{fig:mixtest2} show results on convolutional neural network. We can see consistent results on 2-layers neural network and CNN.
 
-\begin{figure}
+\begin{figure}[!t]
 \includegraphics[width=\linewidth]{../presentation/test_conv.png}
 \caption{RGB vs RGBD Test CNN Accuracy, Iterations}
-\label{fig:mixtest}
+\label{fig:mixtest0}
 \end{figure}
  
-\begin{figure}
+\begin{figure}[!t]
 \includegraphics[width=\linewidth]{../presentation/rgb_cnn.png}
 \caption{RGB CNN Train/Val/Test Accuracy, Iterations}
-\label{fig:mixtest}
+\label{fig:mixtest1}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[!t]
 \includegraphics[width=\linewidth]{../presentation/rgbd_cnn.png}
 \caption{RGBD CNN Train/Val/Test Accuracy, Iterations}
-\label{fig:mixtest}
+\label{fig:mixtest2}
 \end{figure}
 %-------------------------------------------------------------------------
 \section{Further Work}
@@ -451,8 +451,8 @@ Maybe we can witness accuracy surpassing current record.
 
 We also plan to build more RGBD datasets and publish them for research usage.
 
-\subsection{Learning on RGBD(ground-truth) vs RGBD(estimated)}
-Compare the accuracy of Learning on RGBD(ground-truth) vs RGBD(estimated).
+\subsection{Learning on RGBD (ground-truth depth) vs RGBD (estimated depth)}
+Compare the accuracy of Learning on RGBD(ground-truth) vs RGBD(estimated). It is possible that RGBD(estimated) can achieve better result than RGBD(groud-truth), since RGBD(estimated) are obtained by deep neural network which extract some high level features automatically. We need to further compare nd investigate learning of Learning on RGBD(ground-truth) vs RGBD(estimated).
 
 %-------------------------------------------------------------------------
 \section{Conclusion}
@@ -467,21 +467,21 @@ classification accuracy.
 
 \section*{Role Clarification}
 We divide our teamwork as follow. {\bf Yihui}'s contribution:
-\begin{enumerate*}
+\begin{enumerate}
 \item Proposed idea.
 \item Implemented deep convolutional neural field 
 \item Create RGBD CIFAR10 dataset
 \item Perform experiment for 2-layer neural network on RGBD dataset.
 \item prepare presentation
 \item edit final report.
-\end{enumerate*}
+\end{enumerate}
 {\bf Metehan}'s contribution:
-\begin{enumerate*}
+\begin{enumerate}
 \item Discussed idea.
 \item implement and perform experiment using AlexNet (CNN) on RGBD dataset. 
 \item prepare presentation 
 \item edit final report.
-\end{enumerate*}
+\end{enumerate}
 
 {\small
 \printbibliography

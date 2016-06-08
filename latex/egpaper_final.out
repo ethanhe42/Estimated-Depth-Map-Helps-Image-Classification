@@ -12,8 +12,9 @@
 \BOOKMARK [2][-]{subsection.4.3}{. Experiment}{section.4}% 12
 \BOOKMARK [3][-]{subsubsection.4.3.1}{R vs G vs B vs D}{subsection.4.3}% 13
 \BOOKMARK [3][-]{subsubsection.4.3.2}{RGB vs RGBD}{subsection.4.3}% 14
-\BOOKMARK [1][-]{section.5}{. Further Work}{}% 15
-\BOOKMARK [2][-]{subsection.5.1}{. Depth Estimation}{section.5}% 16
-\BOOKMARK [2][-]{subsection.5.2}{. Learning on RGBD Dataset}{section.5}% 17
-\BOOKMARK [2][-]{subsection.5.3}{. Learning on RGBD\(ground-truth\) vs RGBD\(estimated\)}{section.5}% 18
-\BOOKMARK [1][-]{section.6}{. Conclusion}{}% 19
+\BOOKMARK [3][-]{subsubsection.4.3.3}{CNN Experimentation}{subsection.4.3}% 15
+\BOOKMARK [1][-]{section.5}{. Further Work}{}% 16
+\BOOKMARK [2][-]{subsection.5.1}{. Depth Estimation}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.2}{. Learning on RGBD Dataset}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.3}{. Learning on RGBD \(ground-truth depth\) vs RGBD \(estimated depth\)}{section.5}% 19
+\BOOKMARK [1][-]{section.6}{. Conclusion}{}% 20

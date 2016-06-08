@@ -1,18 +1,18 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'egpaper_final.blg'
-[21] biber:290> INFO - === Sun Jun  5, 2016, 23:41:45
-[30] Biber.pm:347> INFO - Reading 'egpaper_final.bcf'
-[82] Biber.pm:741> INFO - Found 15 citekeys in bib section 0
-[88] Biber.pm:3150> INFO - Processing section 0
-[111] Biber.pm:3307> INFO - Looking for bibtex format file '../presentation/depth.bib' for section 0
-[112] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
-[113] bibtex.pm:985> INFO - Found BibTeX data source '../presentation/depth.bib'
-[114] Utils.pm:147> WARN - Duplicate entry key: 'eigen2015predicting' in file '../presentation/depth.bib', skipping ...
-[270] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[270] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[270] Biber.pm:3027> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
-[270] Biber.pm:3031> INFO - No sort tailoring available for locale 'en-US'
-[281] bbl.pm:519> INFO - Writing 'egpaper_final.bbl' with encoding 'ascii'
-[286] Utils.pm:147> WARN - The entry 'tensorflow2015-whitepaper' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[287] bbl.pm:615> INFO - Output to egpaper_final.bbl
-[287] Biber.pm:108> INFO - WARNINGS: 2
+[21] biber:290> INFO - === Wed Jun  8, 2016, 11:50:06
+[29] Biber.pm:347> INFO - Reading 'egpaper_final.bcf'
+[84] Biber.pm:741> INFO - Found 16 citekeys in bib section 0
+[91] Biber.pm:3150> INFO - Processing section 0
+[116] Biber.pm:3307> INFO - Looking for bibtex format file '../presentation/depth.bib' for section 0
+[117] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
+[118] bibtex.pm:985> INFO - Found BibTeX data source '../presentation/depth.bib'
+[119] Utils.pm:147> WARN - Duplicate entry key: 'eigen2015predicting' in file '../presentation/depth.bib', skipping ...
+[293] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[293] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[293] Biber.pm:3027> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
+[293] Biber.pm:3031> INFO - No sort tailoring available for locale 'en-US'
+[305] bbl.pm:519> INFO - Writing 'egpaper_final.bbl' with encoding 'ascii'
+[310] Utils.pm:147> WARN - The entry 'tensorflow2015-whitepaper' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[311] bbl.pm:615> INFO - Output to egpaper_final.bbl
+[311] Biber.pm:108> INFO - WARNINGS: 2
