@@ -89,9 +89,9 @@ approach or CNN\cite{liu2015deep} approach,
 Nevertheless, all these works didn't try to do recognition with depth map.
 
 Different from previous efforts, 
-we propose to put depth map into practice on classification task.
+we propose to put depth map into practice on a image classification task.
 While extensively studied in semantic labeling and accuracy improvement,
-depth map regression has been less explored for classification problems.
+depth map regression has been less explored in its application to classification problems. Theoretically, one can imagine that a neural-network that is deep enough would generate it's own depth-map (or at least simulate depth-map-like features).
 
 Recently, the efficacy and power of the deep
 convolutional neural network (CNN) has been harnessed. 
@@ -119,11 +119,11 @@ and show that training on RGBD images can somehow improve accuracy.
 %-------------------------------------------------------------------------
 \section{Related Work}
 Convolutional networks have been applied with great success for object 
-classification and detection. ConvNets have recently been applied to a variety 
+classification and detection. CNNs have recently been applied to a variety 
 of other tasks, like depth estimation. Depth estimation from single image is 
 well addressed by Liu\etal\cite{liu2015deep} and Eigen\etal 
 \cite{eigen2015predicting}. They both agree that depth estimation 
-is an ill posed problem, since there's no real groud truth depth map. By 
+is an ill posed problem, since there's no real groundtruth depth map. By 
 contrast, we define transfer learning accuracy metric for depth estimation 
 model. It becomes easier to compare performance of different depth estimation 
 model.
@@ -135,8 +135,8 @@ been combined with classification task. to our knowledge, we are the first to
 bridge gap between depth estimation and image classification.
 
 our work builds upon state-of-the-art depth estimation model\cite{liu2015deep}
-which is a two loss neural network. we build rgbd dataset, and investigate 
-quality and potential usage of depth map intensely. moreover, we improve 
+which is a two loss neural network. we build RGBD dataset, and investigate the
+quality the depth maps more deeply. moreover, we improve 
 accuracy of image classification task with depth map.
 
 %-------------------------------------------------------------------------
@@ -169,7 +169,7 @@ E(y, x) = \sum_{p \in {\cal N} } U(y_{p}, x)
 	 + \sum_{(p,q) \in {\cal S}} V(y_{p}, y_{q}, x).
 \end{equation}
 The unary term U aims to regress the depth value from a single superpixel. The 
-pairwise term V encourages neighbouring superpixels with similar appearances 
+pairwise term V encourages neighboring superpixels with similar appearances 
 to take similar depths. We aim to jointly learn U and V in a unified CNN 
 framework.
 In Figure.\ref{fig:arch} , we show a sketch of our deep convolutional
@@ -182,9 +182,9 @@ composed of a unary part, a pairwise part and a CRF loss layer.
 \end{figure}
 
 For an input image, which has been segmented into n superpixels, we 
-consider image patches centred around each superpxiel centroid. The unary part 
+consider image patches centered around each superpixel centroid. The unary part 
 then takes all the image patches as input and feed each of them to a CNN and 
-output an n-dimentional vector con- taining regressed depth values of the n 
+output an n-dimensional vector containing regressed depth values of the n 
 superpixels. The network for the unary part is composed of 5 convolutional and 
 4 fully-connected layers with details in Figure.\ref{fig:unary}. 
 \begin{figure*}
@@ -195,14 +195,12 @@ superpixels. The network for the unary part is composed of 5 convolutional and
 
 Kindly note that the CNN parameters are shared across all the superpixels. 
 The pairwise part takes similarity vectors (each with K components) of all 
-neighbouring superpixel pairs as input and feed each of them to a 
+neighboring superpixel pairs as input and feed each of them to a 
 fully-connected layer (parameters are shared among different pairs), then output 
-a vector containing all the 1-dimentional similarities for each of the 
-neighbouring superpixel pair. The CRF loss layer takes as input the outputs from 
+a vector containing all the 1-dimensional similarities for each of the neighboring superpixel pair. The CRF loss layer takes as input the outputs from 
 the unary and the pairwise parts to minimize the negative log-likelihood.
 \subsubsection{Unary part}
-The unary potential is constructed from the output of a CNN by considering the 
-least square loss:
+The unary potential is constructed from the output of a CNN by considering the least square loss:
 \begin{equation}\label{eq:unary}
 U(y_{p}, x;\theta) = (y_p - \hat{y}_p (\theta))^2, \;\; \forall p=1,...,n.
 \end{equation}
@@ -210,24 +208,24 @@ Here $\hat{y}_p$ is the regressed depth of the superpixel $p$ parametrized by
 the CNN parameters $\theta$. The network architecture for the unary part is 
 depicted in Figure.\ref{fig:unary}. It is composed of 5 convolutional layers 
 and 4 fully connected layers. The input image is first segmented into 
-superpixels, then for each superpixel, we consider the image patch centred 
+superpixels, then for each superpixel, we consider the image patch centered 
 around its centroid. Each of the image patches is resized to 224×224 pixels and 
-then fed to the convolutional neural network. Note that the con- volutional and 
+then fed to the convolutional neural network. Note that the convolutional and 
 the fully-connected layers are shared across all the image patches of different 
 superpixels.
 \subsubsection{Pairwise part}
 We construct the pairwise potential from 3 types of similarity observations: 
 color difference, color histogram difference and texture 
 disparity\cite{ojala1994performance}. Each of them enforces smoothness by 
-exploiting consistency information of neighbouring superpixels:
+exploiting consistency information of neighboring superpixels:
 \begin{equation}
  \label{eq:pairwise}
 V(y_{p}, y_{q}, x; \beta) = \sum_{k=1}^K \beta_k S_{pq}^{(k)}(y_p - y_q)^2, 
 \;\forall p,q=1,...,n.
 \end{equation}
-Here, $K=3$ in our case. $S_{pq}$is similarity of two neighour superpixels $p$ 
+Here, $K=3$ in our case. $S_{pq}$is similarity of two neighbor superpixels $p$ 
 and $q$. $\beta$ is trainable parameters, so we can let CNN decide which 
-similarity is more improtant. 
+similarity is more important. 
 
 \subsection{Implementation Details}
 We implement the network training on Make3D\cite{saxena2005learning} dataset 
@@ -235,13 +233,12 @@ with Tensorflow\cite{tensorflow2015-whitepaper}. Make3D dataset contains
 more outdoor scenes, which makes it easier for us to transfer learning onto the
 CIFAR10 dataset. During each SGD iteration, 
 around ∼ 700 superpixel image patches are processed. Our implementation differs from the 
-orginal implementation\cite{liu2015deep}, Since we have enough memory, we feed 
-700 superpixel image patches into memory at once. Other parts of implementation 
-are similar.
+original implementation\cite{liu2015deep}, Since we have enough memory, we feed 
+700 superpixel image patches into memory at once. Other parts of implementation are similar to how they are described in the paper.
 
 During implementation, we initialize the first 6 layers of the unary part in 
 Figure.\ref{fig:unary} using a CNN model trained on the ImageNet 
-from\cite{chatfield2014return}. First, we do not back propa- gate through the 
+from\cite{chatfield2014return}. First, we do not back propagate through the 
 previous 6 layers by keeping them fixed and train the rest of the network
 with momentum 0.9, learning rate 0.0001, and weight decay 
 0.0005. Then we train the whole network with the same momentum and weight decay.
@@ -254,7 +251,7 @@ The Make3D dataset contains 534 images depicting outdoor scenes. As pointed out
 in \cite{liu2014discrete}, this dataset is with limitations: the maximum value 
 of depths is 81m with far objects are all mapped to the one distance of 81 
 me- ters. As a remedy, two criteria are used to report the prediction error (C1) 
-Errors are calculated only in the re- gions with the ground-truth depth less 
+Errors are calculated only in the regions with the ground-truth depth less 
 than 70 meters; (C2) Errors are calculated over the entire image. We follow this 
 protocol.
 Performance is shown in Table\ref{tab:sanity}. 
@@ -293,19 +290,19 @@ In Figure\ref{fig:depthest} we also show depth maps our model learned.
 %-------------------------------------------------------------------------
 \section{RGBD Image for Classification}
 Recent depth image research works mainly focus on depth-estimation\cite{liu2015deep} 
-and segementation with depth image\cite{eigen2015predicting}.
+and segmentation with depth image\cite{eigen2015predicting}.
 And we\rq{}ve witnessed significant improvement on depth estimation accuracy in these years. 
 However, most image classification tasks nowadays are still performed on RGB images.
 So we want to transfer depth knowledge learned by depth estimation model into our image-classification model.
 In this section, 
-we first build a RGBD imageset for CIFAR10\cite{krizhevsky2009learning}, 
-based on trained deep convolutional neural field model in the previous section. 
-To investigate the effect of depth channel on image classification task, 
-we design two experiments. 
+we first built a RGBD dataset for CIFAR10\cite{krizhevsky2009learning}, 
+based on a trained deep convolutional neural field model in the previous section. 
+To investigate the effect of the depth channel on image classification task, 
+we design two experiments (one with a simple feedforward NN and one with a CNN) 
 Finally, we propose a new metric for depth estimation performance measurement.
 
 \subsection{Build RGBD CIFAR10 Dataset}
-Since the Deep Convoluntional Neural Field model accepts images that are 
+Since the Deep Convolutional Neural Field model accepts images that are 
 much larger that CIFAR10 tiny images(32x32), we build RGBD dataset as follow:
 \begin{enumerate}
 \item resize CIFAR10 tiny image(32x32x3) to normal size(400x400x3) in order to 
@@ -315,30 +312,30 @@ feed in CNF.
 image(32x32x1).
 \item combine RGB and D channels together as our RGBD image(32x32x4).
 \end{enumerate}
-Figure\ref{fig:dataset} shows the transer learning procedure.
+Figure\ref{fig:dataset} shows the transfer learning procedure.
 \begin{figure}
 \includegraphics[width=\linewidth]{../dataset.png}
 \caption{Transer Learning: Build RGBD CIFAR10 dataset}
 \label{fig:dataset}
 \end{figure}
-Since there is no ground truth depth image for CIFAR10 dataset, we can\rq{}t directly 
-know whether depth estimation for these tiny images is successful or not. 
-However, we can infer this undirectly in two ways. 
-On the one hand, we can look at these depth images
+Since there is no ground-truth depth image for CIFAR10 dataset, we can\rq{}t directly 
+measure the accuracy of our depth estimation attempts for these tiny images. 
+However, we can infer this indirectly in two ways.
+First we can look at these depth images
 and make sure that most of them is reasonable.
 Figure\ref{fig:tiny} shows some depth maps.
-On the other hand, we use the accuracy results of two experiments as a new metric to 
-compare different depth map quality.
+Second, we can use the accuracy results of our two experiments as a new metric to 
+quantify depth map quality.
 \begin{figure}
 \includegraphics[width=\linewidth]{../tiny.png}
-\caption{Depth map estimated by deep convoluntional neural field}
+\caption{Depth map estimated by deep convolutional neural field}
 \label{fig:tiny}
 \end{figure}
 
 \subsection{Classification Task on RGBD CIFAR10}
 In order to make it easier to show effect of depth channel,
  we employ a simple two layer neural network for classification task.
- The architecure for learning on RGBD dataset is shown in Figure\ref{fig:tarch}. 
+ The architecture for learning on the RGBD dataset is shown in Figure\ref{fig:tarch}. 
  \begin{figure}
 \includegraphics[width=\linewidth]{../Tarch.png}
 \caption{Learning on RGBD dataset}
@@ -349,7 +346,7 @@ If input is a single channel(R,G,B,D), we have 32x32 neurons.
 The amount of hidden neurons is not determined. We perform fine tuning 
 for each situation. The number of output neurons is always number of classes(10 classes
 for CIFAR10). Technical details of our architecture is shown in Table\ref{tab:details}. 
-Hyperparameters not dicussed here will be fine tuned.
+Hyperparameters are not discussed here but will be fine tuned.
 \begin{table}
 \begin{center}
 \begin{tabular}{|l|l|l|l|}
@@ -360,7 +357,7 @@ Dropout&ReLU&Momentum&128\\
 \hline
 \end{tabular}
 \end{center}
-\caption{Archtecture details for classification task on our new RGBD dataset}
+\caption{Architecture details for classification task on our new RGBD dataset}
 \label{tab:details}
 \end{table}
 
@@ -374,8 +371,8 @@ And compare their loss and accuracy.
 
 \subsubsection{R vs G vs B vs D}
 We perform fine tuning on each channel. So that their performances are approximately optimal.
-Figure\ref{fig:channeltrain} shows training accuracy comparision through time. 
-Figure\ref{fig:channeltest} shows validation accuracy comparision through time. 
+Figure\ref{fig:channeltrain} shows training accuracy comparison through time. 
+Figure\ref{fig:channeltest} shows validation accuracy comparison through time. 
 \begin{figure}
 \includegraphics[width=\linewidth]{../presentation/train.eps}
 \caption{R vs G vs B vs D, training time}
@@ -387,15 +384,14 @@ Figure\ref{fig:channeltest} shows validation accuracy comparision through time.
 \label{fig:channeltest}
 \end{figure}
 
-You can see that, at testing time, depth channel out perform R,G,B channels 
-under the same architecture.
-It implies that, depth channel has a better feature representation than R, G, B channels.
+You can see that, at testing time, the depth channel outperforms R,G,B channels under the same architecture.
+This implies that, depth channel has a better feature representation than R, G, B channels.
 
 \subsubsection{RGB vs RGBD}
 We perform fine tuning for both RGB and RGBD situations.
  So that their performances are approximately optimal.
-Figure\ref{fig:mixtrain} shows training accuracy comparision through time. 
-Figure\ref{fig:mixtest} shows validation accuracy comparision through time. 
+Figure\ref{fig:mixtrain} Compares training accuracy  through time. 
+Figure\ref{fig:mixtest} Compares validation accuracy comparison through time. 
 \begin{figure}
 \includegraphics[width=\linewidth]{../presentation/together_train.eps}
 \caption{RGB vs RGBD, training time(RGBD:blue, RGB:red)}
@@ -407,27 +403,47 @@ Figure\ref{fig:mixtest} shows validation accuracy comparision through time.
 \label{fig:mixtest}
 \end{figure}
 
-We get {\bf56\%} and 52\% validation accuracy with RGBD and RGB dataset respectively.
+We get {\bf56\%} and {\bf52\%} validation accuracy with RGBD and RGB dataset respectively.
 This can be seen as a sign that depth map brings extra knowledge
- learned by deep convoluntional neural field to our classification task.
+ learned by deep convolutional neural field to our classification task.
 
 You can also notice that, although RGBD dataset have more inputs and neurons,
   it has a much higher converge rate than RGB dataset. 
  It can be interpreted as a better feature representation brought by depth map.
 
+\subsubsection{CNN Experimentation}
+Our previous experiments using a 2-layer feedforward neural network yielded a performance increase of 4\% when comparing the accuracy of a NN trained on the RGB dataset to the NN trained on the RGBD dataset. These results did not satisfy us as a simple feedforward neural network is not the optimal tool used for image classification and so we decided to test the performance of our CNN  \cite{krizhevsky2012imagenet} over the CIFAR-10 RGB dataset and compare it to the performance achieved over our CIFAR-10 RGBD dataset. We achieved an accuracy of {\bf57.5\%} and {\bf53\%} using the RGBD and RGB datasets respectively. This performance gain of {\bf4.5\%} in accuracy between RGBD and RGB using the CNN is slightly better than the original accuracy gain {\bf4.0\%} using the 2-layer ANN.
 
+Our convolutional neural network was composed of two convolutional layers (with subsequent max-pooling layers) followed by two fully-connected layers. 
 
+Using this convolutional neural network
+
+\begin{figure}
+\includegraphics[width=\linewidth]{../presentation/test_conv.png}
+\caption{RGB vs RGBD Test CNN Accuracy, Iterations}
+\label{fig:mixtest}
+\end{figure}
+ 
+\begin{figure}
+\includegraphics[width=\linewidth]{../presentation/rgb_cnn.png}
+\caption{RGB CNN Train/Val/Test Accuracy, Iterations}
+\label{fig:mixtest}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\linewidth]{../presentation/rgbd_cnn.png}
+\caption{RGBD CNN Train/Val/Test Accuracy, Iterations}
+\label{fig:mixtest}
+\end{figure}
 %-------------------------------------------------------------------------
 \section{Further Work}
 \subsection{Depth Estimation}
 We\rq{}ve mentioned that depth estimation is an ill-posed problem, 
-since we can not find the really ground truth depth map to compare performance of 
+since we can not find the ground truth depth map which would allow us compare the performance of 
 different depth estimation models.
-However, using the accuracy metric we proposed, performance can be measured 
-undirectly.
-The only drawback is that our running on our metric need much more time than other metrics.
-If we have more time, we\rq{}ll measure performance of existing depth estimation models
- and give a summary.
+However, using the accuracy metric we proposed, performance can be measured indirectly.
+The only drawback is that our running on our metric need much more time than most other typical metrics.
+If we had more time, we would measure the performance of existing depth estimation models.
  
  
 \subsection{Learning on RGBD Dataset}
@@ -435,7 +451,7 @@ In our experiment, we didn\rq{}t implement state-of-the-art image classification
 We consider to test RGBD dataset on that model. 
 Maybe we can witness accuracy surpassing current record.
 
-We also plan to build more RGBD dataset and publish them for research usage.
+We also plan to build more RGBD datasets and publish them for research usage.
 
 \subsection{Learning on RGBD(ground-truth) vs RGBD(estimated)}
 Compare the accuracy of Learning on RGBD(ground-truth) vs RGBD(estimated).
