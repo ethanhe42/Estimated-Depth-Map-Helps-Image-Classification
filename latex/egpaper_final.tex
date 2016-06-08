@@ -57,7 +57,7 @@ University of California, Santa Barbara\\
 %%%%%%%%% ABSTRACT
 \begin{abstract}
 We consider the problem of doing image classification using estimated depth 
-information. This problem clearly falls into the domain of transfer learning, since we are using a model trained on a set of depth images in order to generate depth maps (additional features) for use in another classification problem using another disjoin set of images. It is a challenging task as no direct depth information is 
+information. This problem clearly falls into the domain of transfer learning, since we are using a model trained on a set of depth images in order to generate depth maps (additional features) for use in another classification problem using another disjoint set of images. It is a challenging task as no direct depth information is 
 provided. Previous related research efforts have been focused on image classification tasks using
 RGB images and depth image estimation but none have attempted to use depth image estimations in order to aid image classification over RGB images. Therefore, in this paper we present a way of 
 transferring domain knowledge on depth estimation to a seperate image classification task over a disjoint set of training,validation and test data. 
@@ -193,7 +193,7 @@ superpixels. The network for the unary part is composed of 5 convolutional and
 \label{fig:unary}
 \end{figure*}
 
-Kindly note that the CNN parameters are shared across all the su- perpixels. 
+Kindly note that the CNN parameters are shared across all the superpixels. 
 The pairwise part takes similarity vectors (each with K components) of all 
 neighbouring superpixel pairs as input and feed each of them to a 
 fully-connected layer (parameters are shared among different pairs), then output 
@@ -232,9 +232,9 @@ similarity is more improtant.
 \subsection{Implementation Details}
 We implement the network training on Make3D\cite{saxena2005learning} dataset 
 with Tensorflow\cite{tensorflow2015-whitepaper}. Make3D dataset contains 
-more outdoor scenes, which makes it easier for us to transer learning on 
-CIFAR10 dataset in the following section. During each SGD iteration, 
-around ∼ 700 superpixel image patches t need to be processed. Different from 
+more outdoor scenes, which makes it easier for us to transfer learning onto the
+CIFAR10 dataset. During each SGD iteration, 
+around ∼ 700 superpixel image patches are processed. Our implementation differs from the 
 orginal implementation\cite{liu2015deep}, Since we have enough memory, we feed 
 700 superpixel image patches into memory at once. Other parts of implementation 
 are similar.
@@ -292,12 +292,11 @@ In Figure\ref{fig:depthest} we also show depth maps our model learned.
 
 %-------------------------------------------------------------------------
 \section{RGBD Image for Classification}
-Recent depth image research works
-mainly focus on depth estimation\cite{liu2015deep} 
+Recent depth image research works mainly focus on depth-estimation\cite{liu2015deep} 
 and segementation with depth image\cite{eigen2015predicting}.
 And we\rq{}ve witnessed significant improvement on depth estimation accuracy in these years. 
 However, most image classification tasks nowadays are still performed on RGB images.
-So we want to transfer depth knowledge learned by depth estimation model to image classification tasks.
+So we want to transfer depth knowledge learned by depth estimation model into our image-classification model.
 In this section, 
 we first build a RGBD imageset for CIFAR10\cite{krizhevsky2009learning}, 
 based on trained deep convolutional neural field model in the previous section. 
@@ -312,7 +311,7 @@ much larger that CIFAR10 tiny images(32x32), we build RGBD dataset as follow:
 \item resize CIFAR10 tiny image(32x32x3) to normal size(400x400x3) in order to 
 feed in CNF.
 \item perform depth estimation on normal size image.
-\item resize the output image(depth image, 400x400x1) back to tiny 
+\item downscale the output image(depth image, 400x400x1) back to tiny 
 image(32x32x1).
 \item combine RGB and D channels together as our RGBD image(32x32x4).
 \end{enumerate}
@@ -432,8 +431,7 @@ If we have more time, we\rq{}ll measure performance of existing depth estimation
  
  
 \subsection{Learning on RGBD Dataset}
-In our experiment, we didn\rq{}t 
-employ state-of-the-art image classification model\cite{he2015deep} for simplicity.
+In our experiment, we didn\rq{}t implement state-of-the-art image classification model\cite{he2015deep} for simplicity.
 We consider to test RGBD dataset on that model. 
 Maybe we can witness accuracy surpassing current record.
 
