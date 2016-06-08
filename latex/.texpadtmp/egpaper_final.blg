@@ -1,17 +1,17 @@
 [0] Config.pm:324> INFO - This is Biber 2.1
 [0] Config.pm:327> INFO - Logfile is '/Users/metehan/CS/CS291K/Depth-estimation-with-neural-network/latex/.texpadtmp/egpaper_final.blg'
-[67] biber-darwin:276> INFO - === Wed Jun  8, 2016, 02:13:11
-[67] Biber.pm:333> INFO - Reading '/Users/metehan/CS/CS291K/Depth-estimation-with-neural-network/latex/.texpadtmp/egpaper_final.bcf'
-[186] Biber.pm:645> INFO - Found 16 citekeys in bib section 0
-[217] Biber.pm:2977> INFO - Processing section 0
-[251] Biber.pm:3115> INFO - Looking for bibtex format file '/Users/metehan/CS/CS291K/Depth-estimation-with-neural-network/latex/../presentation/depth.bib' for section 0
-[254] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
-[256] bibtex.pm:895> INFO - Found BibTeX data source '/Users/metehan/CS/CS291K/Depth-estimation-with-neural-network/latex/../presentation/depth.bib'
-[258] Utils.pm:146> WARN - Duplicate entry key: 'eigen2015predicting' in file '/Users/metehan/CS/CS291K/Depth-estimation-with-neural-network/latex/../presentation/depth.bib', skipping ...
-[494] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[494] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[494] Biber.pm:2854> INFO - Sorting list 'none' of type 'entry' with scheme 'none' and locale 'en-US'
-[494] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
-[515] bbl.pm:505> INFO - Writing '/Users/metehan/CS/CS291K/Depth-estimation-with-neural-network/latex/.texpadtmp/egpaper_final.bbl' with encoding 'UTF-8'
-[518] bbl.pm:596> INFO - Output to /Users/metehan/CS/CS291K/Depth-estimation-with-neural-network/latex/.texpadtmp/egpaper_final.bbl
-[518] Biber.pm:106> INFO - WARNINGS: 1
+[68] biber-darwin:276> INFO - === Wed Jun  8, 2016, 02:59:53
+[69] Biber.pm:333> INFO - Reading '/Users/metehan/CS/CS291K/Depth-estimation-with-neural-network/latex/.texpadtmp/egpaper_final.bcf'
+[188] Biber.pm:645> INFO - Found 16 citekeys in bib section 0
+[230] Biber.pm:2977> INFO - Processing section 0
+[260] Biber.pm:3115> INFO - Looking for bibtex format file '/Users/metehan/CS/CS291K/Depth-estimation-with-neural-network/latex/../presentation/depth.bib' for section 0
+[263] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[266] bibtex.pm:895> INFO - Found BibTeX data source '/Users/metehan/CS/CS291K/Depth-estimation-with-neural-network/latex/../presentation/depth.bib'
+[268] Utils.pm:146> WARN - Duplicate entry key: 'eigen2015predicting' in file '/Users/metehan/CS/CS291K/Depth-estimation-with-neural-network/latex/../presentation/depth.bib', skipping ...
+[506] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[506] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[506] Biber.pm:2854> INFO - Sorting list 'none' of type 'entry' with scheme 'none' and locale 'en-US'
+[506] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
+[532] bbl.pm:505> INFO - Writing '/Users/metehan/CS/CS291K/Depth-estimation-with-neural-network/latex/.texpadtmp/egpaper_final.bbl' with encoding 'UTF-8'
+[535] bbl.pm:596> INFO - Output to /Users/metehan/CS/CS291K/Depth-estimation-with-neural-network/latex/.texpadtmp/egpaper_final.bbl
+[536] Biber.pm:106> INFO - WARNINGS: 1

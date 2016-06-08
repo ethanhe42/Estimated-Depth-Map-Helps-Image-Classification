@@ -82,19 +82,17 @@ It is a notorious example of an ill-posed problem,
 as one captured image may correspond to numerous real world scenes\cite{eigen2014depth}. 
 it remains a challenging task for computer vision algorithms as no reliable cues can be exploited,
 such as temporal information, stereo correspondences, \etc.
-Previous research involving depth-maps usually involv
-geometric\cite{hedau2010thinking,gupta2010estimating,gupta2010blocks} 
-approach or CNN\cite{liu2015deep} approach,
-, and Semantic labeling\cite{ladicky2014pulling} with depth information.
-Nevertheless, all these works didn't try to do recognition with depth map.
-
+Previous research involving depth-maps usually involve
+geometric\cite{hedau2010thinking,gupta2010estimating,gupta2010blocks}, convolutional\cite{liu2015deep} ,
+, and semantic\cite{ladicky2014pulling} techniques.
+Nevertheless, none of these works tried to perform image classification using depth maps as training data.
 Different from previous efforts, 
-we propose to put depth map into practice on a image classification task.
+we propose to utilize depth maps in a image classification task.
 While extensively studied in semantic labeling and accuracy improvement,
 depth map regression has been less explored in its application to classification problems. Theoretically, one can imagine that a neural-network that is deep enough would generate it's own depth-map (or at least simulate depth-map-like features).
 
 Recently, the efficacy and power of the deep
-convolutional neural network (CNN) has been harnessed. 
+convolutional neural network (CNN) has been made accessible. 
 With a CNN, we are able to perform depth estimation on a single image\cite{liu2015deep}.
 However, most classification tasks still perform on RGB images.
 With only RGB images, CNN features have been setting new records for a wide variety of vision applications\cite{razavian2014cnn}.
@@ -105,7 +103,7 @@ To our knowledge, we are the first to bridge gap between depth estimation and im
 To sum up, we highlight the main contributions of this work as follows:
 \begin{itemize}
 \vspace{-.12cm} \item 
-We implemented a deep convoluntional neural field on depth estimation problem and obtained similiar results
+We implemented a deep convolutional neural field in order to solve the depth estimation problem and obtained similar results to the implementation used in the paper.
 \vspace{-.12cm} \item
 We created the first RGBD image dataset for CIFAR10.
 \vspace{-.12cm} \item 
@@ -123,21 +121,21 @@ classification and detection. CNNs have recently been applied to a variety
 of other tasks, like depth estimation. Depth estimation from single image is 
 well addressed by Liu\etal\cite{liu2015deep} and Eigen\etal 
 \cite{eigen2015predicting}. They both agree that depth estimation 
-is an ill posed problem, since there's no real groundtruth depth map. By 
+is an ill-posed problem, since there's no real ground truth depth map. By 
 contrast, we define transfer learning accuracy metric for depth estimation 
 model. It becomes easier to compare performance of different depth estimation 
 model.
 
 Depth map has been successfully applied to some problems. based on depth 
 information, performance improvement on semantic 
-labeling\cite{eigen2015predicting} has been seen. however, depth map hasn't 
-been combined with classification task. to our knowledge, we are the first to 
+labeling\cite{eigen2015predicting} has been seen. however, depth maps have not
+been combined with an image classification task. To our knowledge, we are the first to 
 bridge gap between depth estimation and image classification.
 
-our work builds upon state-of-the-art depth estimation model\cite{liu2015deep}
-which is a two loss neural network. we build RGBD dataset, and investigate the
-quality the depth maps more deeply. moreover, we improve 
-accuracy of image classification task with depth map.
+Our work builds upon state-of-the-art depth estimation model\cite{liu2015deep}
+which is a two loss neural network. We used this model in order to build the RGBD dataset, and investigate the
+quality the depth maps. Moreover, we improved 
+accuracy of image classification task with depth map data.
 
 %-------------------------------------------------------------------------
 \section{Deep Convolutional Neural Field}
