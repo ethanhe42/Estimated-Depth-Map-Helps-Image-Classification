@@ -1,7 +1,8 @@
 # learning-depth-from-single-image-using-neural-network
 ### how to test
 1. you can run tryhere.ipynb to test performance on RGBD and RGB images.
-2. you can do depth estimation in train/ folder
+2. you can do depth estimation in train/ folder  
+
 ![fig](presentation/im2d.png)
 
 ### steps  
