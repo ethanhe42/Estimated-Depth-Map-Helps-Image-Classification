@@ -5,6 +5,15 @@
 :---:|:---:
 RGBD dataset | estimated depth classification
 
+if you find our work helpful in your research, please consider citing:
+
+    @article{estimated2017he,
+      title={Estimated Depth Map Helps Image Classification},
+      author={He, Yihui},
+      journal={arXiv preprint arXiv:1709.07077},
+      year={2017}
+    }
+
 ### how to test
 1. you can run tryhere.ipynb to test performance on RGBD and RGB images.
 2. you can do depth estimation in train/ folder  
