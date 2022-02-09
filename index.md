@@ -1,7 +1,7 @@
 # Estimated Depth Map Helps Image Classification
 *Yihui He, Xi'an Jiaotong University*
 
-![](presentation/tiny.png) | ![](presentation/Tarch.png)
+![](https://raw.githubusercontent.com/yihui-he/Estimated-Depth-Map-Helps-Image-Classification/master/presentation/tiny.png) | ![](https://raw.githubusercontent.com/yihui-he/Estimated-Depth-Map-Helps-Image-Classification/master/presentation/Tarch.png)
 :---:|:---:
 RGBD dataset | estimated depth classification
 
