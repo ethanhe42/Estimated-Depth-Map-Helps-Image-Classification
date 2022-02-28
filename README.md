@@ -1,1 +1,1 @@
-# http://yihui-he.github.io/Estimated-Depth-Map-Helps-Image-Classification/
+# https://yihui-he.github.io/blog/estimated-depth-map-helps-image-classification
